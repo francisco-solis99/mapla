@@ -10,11 +10,9 @@
 </head>
 
 <body>
+   <!-- Slot content -->
   <div class="wrapper-website">
-    <!-- Header -->
-    <?= $this->include('components/Header') ?>
-    <!-- Slot content  -->
-    <?= $this->renderSection('content') ?>
+      <?= $this->renderSection('content') ?>
   </div>
 </body>
 </html>

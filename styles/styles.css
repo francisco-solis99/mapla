@@ -7,11 +7,18 @@
   html, body {
     font-family: 'Roboto', 'sans-serif';
   }
+
 }
 
 
 @layer components {
+  .wrapper-website {
+    @apply max-w-[2040px] min-w-[300px] mx-auto;
+  }
 
+  .container {
+    @apply max-w-[1770px] mx-auto w-11/12;
+  }
 }
 
 
