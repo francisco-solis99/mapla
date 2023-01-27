@@ -25,6 +25,9 @@ module.exports = {
             200: '#21252A'
           }
         }
+      },
+      backgroundImage: {
+        'newsletter-back': "url('/images/home/newsletter.webp')"
       }
     }
   },
