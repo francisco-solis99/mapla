@@ -23,10 +23,14 @@ module.exports = {
           dark: {
             100: '#535F69',
             200: '#21252A'
+          },
+          light: {
+            100: '#F3F0F6'
           }
         }
       },
       backgroundImage: {
+        'hero-slide-1': "url('/images/home/mapla-slider-1.webp')",
         'newsletter-back': "url('/images/home/newsletter.webp')"
       }
     }

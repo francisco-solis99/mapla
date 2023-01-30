@@ -34,7 +34,7 @@
       </span>
     </button>
 
-    <nav class="navbar w-full md:w-2/5 p-8 fixed top-0 bottom-0 -right-full overflow-y-auto lg:static lg:flex lg:items-center lg:w-full bg-mapla-purple-200 text-white lg:bg-transparent lg:text-mapla-dark-200 transition-all ease-in" aria-label="Main navigation">
+    <nav class="navbar" aria-label="Main navigation">
       <button id="btn-menu-close" class="w-full mb-8 lg:hidden inline-flex justify-end">
         <span class="p-2 bg-mapla-purple-100 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x stroke-white" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">

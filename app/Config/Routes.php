@@ -33,9 +33,14 @@ $routes->set404Override(static function () {
 // route since we don't have to scan directories.
 $routes->get('/', 'Website\Home::index', ['as' => 'website.home.index']);
 
-// Contact routes
+// Thanks route
 $routes->get('gracias', 'Website\Thanks::index', ['as' => 'website.thanks.index']);
 
+// Politics Privacy route
+$routes->get('aviso-de-privacidad', 'Website\Privacy::index', ['as' => 'website.privacy.index']);
+
+// Use Politics Cookies route
+$routes->get('politicas-de-uso', 'Website\Cookies::index', ['as' => 'website.cookies.index']);
 
 
 
