@@ -34,7 +34,7 @@ module.exports = {
         'hero-slide-1': "url('/images/home/mapla-slider-1.webp')",
         'newsletter-back': "url('/images/home/newsletter.webp')",
         'promotions-back': "url('/images/promotions/promotions-header.webp')",
-        'contact-back': "url('/images/contact/contact-2x.webp')"
+        'contact-back': "url('../images/contact/contact-2x.webp')"
       }
     }
   },

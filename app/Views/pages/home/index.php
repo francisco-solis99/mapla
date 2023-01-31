@@ -3,13 +3,6 @@
 <?= $this->section('head') ?>
     <title>Tienda de Pinturas en Cancún, Playa Del Carmen, Mérida</title>
     <meta name="description" content="Venta de pintura para las extremas condiciones ambientales del Caribe Mexicano en: Cozumel, Chetumal, Mérida y Tulúm, Valladolid, José María Morelos"/>
-
-    <style>
-      .shadow__link:hover {
-        text-shadow: 0 0 .65px #333, 0 0 .65px #333;
-      }
-    </style>
-
     <link rel="stylesheet" href="<?= base_url('css/splide.min.css') ?>">
 <?= $this->endSection() ?>
 
@@ -31,7 +24,7 @@
               <div class="mx-auto max-w-xl px-8 text-center sm:text-left lg:mx-0">
                 <h1 class="text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
                 <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/5">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
-                <a href="#" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
+                <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
               </div>
             </div>
           </article>

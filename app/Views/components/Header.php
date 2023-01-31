@@ -96,7 +96,7 @@
             <figure class="relative inline-block max-w-[220px] my-2 px-4 lg:my-0 lg:px-0">
               <img src="<?= base_url('images/home/promociones.webp') ?>" alt="Pinturas Mapla - Promociones" class="w-full bg-cover">
               <figcaption class="absolute left-1/2 bottom-5 -translate-x-1/2">
-                <a href="#" class="p-2 bg-white text-mapla-dark-200 font-bold rounded-full border border-mapla-dark-200">Ver ahora</a>
+                <a href="<?= url_to('website.promotions.index') ?>" class="p-2 bg-white text-mapla-dark-200 font-bold rounded-full border border-mapla-dark-200">Ver ahora</a>
               </figcaption>
             </figure>
           </div>
@@ -127,7 +127,7 @@
           <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Blog</a>
         </li>
         <li class="lg:hidden">
-          <a href="/contacto" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Contacto</a>
+          <a href="<?= url_to('website.contact.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Contacto</a>
         </li>
       </ul>
 
@@ -141,7 +141,7 @@
               </svg>
             </span>
         </a>
-        <a href="/contacto" class="py-3 px-4 font-bold bg-mapla-orange-100 text-white rounded-full ml-2 min-w-max">Contacto</a>
+        <a href="<?= url_to('website.contact.index') ?>" class="py-3 px-4 font-bold bg-mapla-orange-100 text-white rounded-full ml-2 min-w-max">Contacto</a>
       </div>
     </nav>
   </div>
