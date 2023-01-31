@@ -46,7 +46,7 @@
       </button>
       <ul class="flex flex-col lg:flex-row gap-x-5 gap-y-4 mx-auto">
         <li>
-          <a href="/" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Inicio</a>
+          <a href="<?= url_to('website.home.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Inicio</a>
         </li>
         <li>
           <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" data-dropdown-button
