@@ -48,6 +48,12 @@ $routes->get('promociones', 'Website\Promotions::index', ['as' => 'website.promo
 // Use Contact route
 $routes->get('contacto', 'Website\Contact::index', ['as' => 'website.contact.index']);
 
+// Use About us routes
+$routes->group('nosotros', static function ($routes) {
+    $routes->get('', 'Website\About::index', ['as' => 'website.about.index']);
+    $routes->get('tecnologia-mapla', 'Website\Technology::index', ['as' => 'website.technology.index']);
+});
+
 
 
 /*

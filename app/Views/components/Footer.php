@@ -64,7 +64,7 @@
         <small class="text-xs"> © 2022 Pinturas Mapla · Todos los derechos reservados </small>
       </p>
       <p>
-        <small class="text-xs">Diseño y desarrollo web por: <a href="https://www.genotipo.com/" class="font-bold">Genotipo®</a></small>
+        <small class="text-xs">Diseño y desarrollo web por: <a href="https://www.genotipo.com/" target="_blank" class="font-bold">Genotipo®</a></small>
       </p>
     </div>
     <?= $this->include('components/Social') ?>
