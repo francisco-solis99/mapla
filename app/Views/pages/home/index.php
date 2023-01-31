@@ -49,8 +49,8 @@
       <section class="my-24">
         <div class="container bg-red-500">
           <picture class="">
-            <source srcset="/images/home/banner-2x.webp" media="(min-width: 768px)">
-            <img src="/images/home/banner.webp" alt="Banner" class="w-full object-cover">
+            <source srcset="<?= base_url('/images/home/banner-2x.webp')?>" media="(min-width: 768px)">
+            <img src="<?= base_url('/images/home/banner.webp')?>" alt="Banner" class="w-full object-cover">
           </picture>
         </div>
       </section>
@@ -62,10 +62,10 @@
             <h3 class="text-mapla-dark-200 font-medium text-2xl">Productos responsables - Low Voc</h3>
             <h2 class="secundary__title mb-3 mt-4 text-4xl font-ubuntu">Pinturas amigables con el medio ambiente 🌱</h2>
             <p class="mb-5 text-mapla-dark-100">Nuestras pinturas son amigables con el medio ambiente gracias a que en nuestra producción cuidamos minimizar al máximo los Compuestos Volátiles de Carbono.</p>
-            <a href="#" class="cta__white">Tecnologia Mapla</a>
+            <a href="<?= url_to('website.technology.index') ?>" class="cta__white">Tecnologia Mapla</a>
           </div>
           <picture class="max-w-lg mx-auto w-3/4 md:w-full md:mx-0 md:max-w-xl md:justify-self-end">
-            <source srcset="/images/home/low-voc-2x.webp" media="(min-width: 768px)">
+            <source srcset="<?= base_url('/images/home/low-voc-2x.webp')?>" media="(min-width: 768px)">
             <img src="<?= base_url('/images/home/low-voc.webp')?>" alt="Productos responsables - Pinturas Mapla" class="w-full object-cover" loading="lazy">
           </picture>
         </div>
@@ -89,7 +89,7 @@
             </div>
           </div>
           <picture class="inline-block mt-5 md:mt-0">
-            <source srcset="/images/home/soluciones-2x.webp" media="(min-width: 768px)">
+            <source srcset="<?= base_url('/images/home/soluciones-2x.webp')?>" media="(min-width: 768px)">
             <img src="<?= base_url('/images/home/soluciones-2x.webp')?>" alt="Soluciones - Pinturas Mapla" class="w-full object-cover h-full">
           </picture>
         </div>
@@ -106,11 +106,11 @@
                 <span>a la medida de tus proyectos</span>
               </h2>
               <p class="mb-8">Nuestros asesores brindan soluciones a la medida de tus proyectos, acompañándote en cada etapa de este. Desde atención personalizada, aplicación de muestras, creación de productos especiales hasta planes de descuento por volumen de compra.</p>
-              <a href="#" class="cta__white">Acerca de Nosotros</a>
+              <a href="<?= url_to('website.about.index') ?>" class="cta__white">Acerca de Nosotros</a>
             </div>
             <picture class="inline-block max-w-md min-w-[200px] w-3/4 justify-self-center sm:w-full md:justify-self-end">
-              <source srcset="/images/home/asesores1-2x.webp" media="(min-width: 468px)">
-              <img src="/images/home/asesores1.webp" alt="Soluciones - Mapla" class="w-full object-cover">
+              <source srcset="<?= base_url('/images/home/asesores1-2x.webp')?>" media="(min-width: 468px)">
+              <img src="<?= base_url('/images/home/asesores1.webp')?>" alt="Soluciones - Mapla" class="w-full object-cover">
             </picture>
           </article>
           <article class="grid md:grid-cols-2 gap-8 md:items-center">
@@ -121,11 +121,11 @@
                 <span>empresariales</span>
               </h2>
               <p class="mb-8">Asignaremos a uno de nuestros asesores expertos para atender las necesidades de tu empresa, brindando soluciones que se adapten a lo que busca y personalizándolas para ti cumpliendo con los más altos niveles de calidad en todos nuestros productos.</p>
-              <a href="#" class="cta__white">Contactanos </a>
+              <a href="<?= url_to('website.contact.index') ?>" class="cta__white">Contactanos </a>
             </div>
             <picture class="inline-block max-w-md min-w-[200px] w-3/4 justify-self-center sm:w-full md:justify-self-end">
-              <source srcset="/images/home/asesores1-2x.webp" media="(min-width: 468px)">
-              <img src="/images/home/asesores1.webp" alt="Soluciones - Mapla" class="w-full object-cover">
+              <source srcset="<?= base_url('/images/home/asesores1-2x.webp')?>" media="(min-width: 468px)">
+              <img src="<?= base_url('/images/home/asesores1.webp')?>" alt="Soluciones - Mapla" class="w-full object-cover">
             </picture>
           </article>
         </div>
@@ -135,7 +135,7 @@
       <section class="my-8 py-4">
         <div class="container grid md:grid-cols-2 gap-3 items-center">
           <picture class="max-w-xs md:max-w-sm inline-block justify-self-center">
-            <source srcset="/images/home/shop-2x.webp" media="(min-width: 768px)">
+            <source srcset="<?= base_url('/images/home/shop-2x.webp')?>" media="(min-width: 768px)">
             <img src="<?= base_url('/images/home/shop.webp')?>" alt="Servicio Personalizado Mapla" class="w-full object-cover">
           </picture>
           <div class="text-center">

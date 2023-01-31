@@ -16,7 +16,7 @@
             <h1 class="text-6xl font-black">Error 404</h1>
             <p class="mt-4">Parece que algo salió mal, la página que buscas no se encuentra.</p>
           </hgroup>
-          <a href="/" class="inline-flex items-center justify-center max-w-max text-mapla-green-100">
+          <a href="<?= url_to('website.home.index') ?>" class="inline-flex items-center justify-center max-w-max text-mapla-green-100">
             <span class="inline-flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left stroke-mapla-green-100 inline" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

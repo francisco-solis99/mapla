@@ -43,8 +43,8 @@
       <h5 class="font-bold text-mapla-dark-200 lg:mb-4">Políticas</h5>
       <ul class="mt-2 text-mapla-dark-100">
         <li><a href="#">Bolsa de Trabajo</a></li>
-        <li><a href="/politicas-de-uso">Politicas de Uso</a></li>
-        <li><a href="/aviso-de-privacidad">Aviso de Privacidad</a></li>
+        <li><a href="<?= url_to('website.cookies.index') ?>">Politicas de Uso</a></li>
+        <li><a href="<?= url_to('website.privacy.index') ?>">Aviso de Privacidad</a></li>
       </ul>
     </div>
 

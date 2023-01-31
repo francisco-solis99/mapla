@@ -18,9 +18,9 @@
   </div>
   <!-- Navbar -->
   <div class="flex justify-between items-center py-4 px-8 min-h-[140px]">
-    <a href="/">
+    <a href="<?= url_to('website.home.index') ?>">
       <picture class="inline-block max-w-[80px]">
-        <img src="/logo.svg" alt="Logotipo - Pinturas Mapla" class="w-full object-cover">
+        <img src="<?= base_url('/logo.svg')?>" alt="Logotipo - Pinturas Mapla" class="w-full object-cover">
       </picture>
     </a>
     <button id="btn-menu-open" type="button" class="inline-flex lg:hidden p-2 rounded-full hover:bg-slate-200">
@@ -118,8 +118,8 @@
           <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:absolute lg:bg-white lg:text-mapla-dark-200 lg:top-full lg:p-4 lg:shadow-md">
             <div class="px-4 my-2 lg:my-0 lg:px-0">
               <ul class="grid gap-y-1">
-                <li><a href="#" class="shadow__link">Tecnologias</a></li>
-                <li><a href="#" class="shadow__link">Acerca de Nosotros</a></li>
+                <li><a href="<?= url_to('website.technology.index') ?>" class="shadow__link">Tecnologias</a></li>
+                <li><a href="<?= url_to('website.about.index') ?>" class="shadow__link">Acerca de Nosotros</a></li>
               </ul>
             </div>
         </li>

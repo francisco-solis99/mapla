@@ -19,10 +19,10 @@
             <h1 class="text-4xl md:text-6xl font-black">Gracias</h1>
             <p class="mt-4 text-sm md:text-base">Tus datos se enviaron con éxito, en breve uno de nuestros asesores se pondrá en contacto contigo.</p>
           </hgroup>
-          <a href="/" class="block mx-auto max-w-max my-8 p-2 bg-mapla-orange-100 rounded-full font-bold text-sm md:text-base">
+          <a href="<?= url_to('website.home.index') ?>" class="block mx-auto max-w-max my-8 p-2 bg-mapla-orange-100 rounded-full font-bold text-sm md:text-base">
             Visitar Web
           </a>
-          <a href="#" class="inline-flex items-center justify-center max-w-max text-mapla-green-100">
+          <a href="<?= url_to('website.home.index') ?>" class="inline-flex items-center justify-center max-w-max text-mapla-green-100">
             <span class="inline-flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left stroke-mapla-green-100 inline" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>

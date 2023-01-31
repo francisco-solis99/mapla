@@ -1,7 +1,7 @@
 <article class="grid md:grid-cols-2 items-center max-w-[996px] lg:mx-auto shadow-lg rounded-[20px] overflow-hidden">
   <picture class="inline-block mx-auto max-w-sm md:max-w-lg">
-    <source srcset="/images/promotions/promotion-2x.webp" media="(min-width: 468px)">
-    <img src="/images/promotions/promotion.webp" alt="Promociones - Productos Mapla" class="w-full object-fill">
+    <source srcset="<?= base_url('/images/promotions/promotion-2x.webp')?>" media="(min-width: 468px)">
+    <img src="<?= base_url('/images/promotions/promotion.webp')?>" alt="Promociones - Productos Mapla" class="w-full object-fill">
   </picture>
   <div class="p-5 text-mapla-dark-100">
     <h3 class="text-[28px] font-bold text-mapla-dark-200">Compra una cubeta y te regalamos ¡UN GALÓN DE PINTURA GRATIS!</h3>

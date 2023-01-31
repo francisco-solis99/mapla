@@ -20,8 +20,8 @@
             <h2 class="mt-5 text-xl sm:text-2xl font-medium">Somos la marca líder en pinturas ecológicas</h2>
           </div>
           <picture class="max-w-sm sm:max-w-md">
-            <source srcset="/images/about/tech-2x.webp" media="(min-width: 468px)">
-            <img src="/images/about/tech.webp" alt="Tecnología mapla" class="w-full object-fill">
+            <source srcset="<?= base_url('/images/about/tech-2x.webp')?>" media="(min-width: 468px)">
+            <img src="<?= base_url('/images/about/tech.webp')?>" alt="Tecnología mapla" class="w-full object-fill">
           </picture>
         </div>
       </section>
@@ -46,8 +46,8 @@
             <p class="text-mapla-dark-100 max-w-5xl mx-auto">La pintura “Low Voc” se caracteriza por la ausencia del fuerte olor a “ pintura fresca” que desprenden las pinturas que contienen altos niveles de VOC, que incluso pueden causar dolor de cabeza o problemas de memoria cuando se inhalan. Mapla elige hacer pinturas amigables con el medio ambiente y cuidar tu salud, es por eso que en nuestra producción cuidamos minimizar al máximo los Compuestos Volátiles de Carbono.</p>
           </div>
           <picture class="inline-block max-w-4xl">
-            <source srcset="/images/about/tech-lowvoc-2x.webp" media="(min-width: 468px)">
-            <img src="/images/about/tech-lowvoc.webp" alt="Pinturas Low Voc" class="w-full object-cover">
+            <source srcset="<?= base_url('/images/about/tech-lowvoc-2x.webp')?>" media="(min-width: 468px)">
+            <img src="<?= base_url('/images/about/tech-lowvoc.webp')?>" alt="Pinturas Low Voc" class="w-full object-cover">
           </picture>
         </div>
       </section>
