@@ -10,12 +10,13 @@
       }
     </style>
 
-    <link rel="stylesheet" href="<?= base_url('css/swapir.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('css/splide.min.css') ?>">
 <?= $this->endSection() ?>
 
 
 <?= $this->section('javascript') ?>
     <script src="<?= base_url('js/components/navbar.js') ?>" defer type="module"></script>
+    <script src="<?= base_url('js/modules/splide.min.js') ?>"></script>
     <script src="<?= base_url('js/components/carousels.js') ?>" defer type="module"></script>
 <?= $this->endSection() ?>
 

@@ -42,6 +42,11 @@ $routes->get('aviso-de-privacidad', 'Website\Privacy::index', ['as' => 'website.
 // Use Politics Cookies route
 $routes->get('politicas-de-uso', 'Website\Cookies::index', ['as' => 'website.cookies.index']);
 
+// Use Promotions route
+$routes->get('promociones', 'Website\Promotions::index', ['as' => 'website.promotions.index']);
+
+// Use Contact route
+$routes->get('contacto', 'Website\Contact::index', ['as' => 'website.contact.index']);
 
 
 

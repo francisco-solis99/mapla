@@ -40,6 +40,10 @@
 
   }
 
+  .shadow__link:hover {
+    text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+  }
+
 }
 
 

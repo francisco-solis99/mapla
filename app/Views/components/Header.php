@@ -127,7 +127,7 @@
           <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Blog</a>
         </li>
         <li class="lg:hidden">
-          <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Contacto</a>
+          <a href="/contacto" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Contacto</a>
         </li>
       </ul>
 
@@ -141,7 +141,7 @@
               </svg>
             </span>
         </a>
-        <a href="#" class="py-3 px-4 font-bold bg-mapla-orange-100 text-white rounded-full ml-2 min-w-max">Contacto</a>
+        <a href="/contacto" class="py-3 px-4 font-bold bg-mapla-orange-100 text-white rounded-full ml-2 min-w-max">Contacto</a>
       </div>
     </nav>
   </div>
