@@ -65,24 +65,25 @@
       </section>
 
 
-      <section class="min-h-[105vh] grid place-items-center bg-gradient-to-r from-mapla-purple-100 to-mapla-purple-100/60">
-        <div class="container">
+      <section class="relative min-h-[105vh] grid place-items-center bg-gradient-to-r from-mapla-purple-100 to-mapla-purple-100/60">
+        <div class="absolute bg-leafs-back bg-no-repeat bg-cover lg:bg-center inset-0 w-full h-full"></div>
+        <div class="relative container">
           <hgroup class="text-white text-center font-bold">
             <p class="text-[28px]">☀️Porque hay climas diferentes 🌧</p>
-            <h2 class="text-6xl">Mapla® es diferente.</h2>
+            <h2 class="mt-4 text-6xl">Mapla® es diferente.</h2>
           </hgroup>
-          <video src="">
-            <source>
-          </video>
+          <div class="mt-10">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/T2LTm8RqstY" title="Mapla es diferente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  loading="lazy" class="w-full lg:w-[840px] lg:h-[420px] mx-auto aspect-square"></iframe>
+          </div>
         </div>
       </section>
 
       <section class="my-16">
-        <div class="container grid grid-cols-4 items-center gap-x-6 gap-y-8">
-          <div>
+        <div class="container grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-x-6 gap-y-10 sm:gap-y-8">
+          <div class="w-4/5 mx-auto text-center lg:w-full lg:mx-0 lg:text-left">
             <h3 class="text-4xl font-bold font-ubuntu text-mapla-purple-200">Catálogo de productos</h3>
-            <p class="my-4 text-mapla-dark-100">Dentro de nuestro amplio catálogo de productos podrás encontrar las mejores soluciones para todo tipo de aplicación y superficie.</p>
-            <a href="#" class="p-3 text-sm bg-mapla-orange-100 text-white rounded-full">Ver catálogos</a>
+            <p class="my-4 mx-auto lg:mx-0 text-mapla-dark-100">Dentro de nuestro amplio catálogo de productos podrás encontrar las mejores soluciones para todo tipo de aplicación y superficie.</p>
+            <a href="#" class="inline-block p-3 text-sm bg-mapla-orange-100 text-white rounded-full">Ver catálogos</a>
           </div>
           <article class="text-center">
             <img src="<?= base_url('/images/about/icons/impermeabilizante.svg') ?>" alt="Impermeabilizante - Mapla" class="mx-auto">
@@ -112,6 +113,14 @@
             <img src="<?= base_url('/images/about/icons/arquitectura.svg') ?>" alt="Pintura arquitectónica - Mapla" class="mx-auto">
             <h3 class="mt-6 text-mapla-purple-200 font-medium text-2xl">Pintura arquitectónica</h3>
           </article>
+        </div>
+      </section>
+
+
+      <!-- Share section -->
+      <section class="my-16">
+        <div class="container">
+        <?= $this->include('components/Share') ?>
         </div>
       </section>
     </main>
