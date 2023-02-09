@@ -54,6 +54,9 @@ $routes->group('distribuidor-pinturas', static function ($routes) {
     $routes->get('tecnologia-mapla', 'Website\Technology::index', ['as' => 'website.technology.index']);
 });
 
+// Use Catalogue route
+$routes->get('catalogo', 'Website\Catalogue::index', ['as' => 'website.catalogue.index']);
+
 
 
 /*
