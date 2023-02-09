@@ -47,6 +47,10 @@
 }
 
 
+.item__list-leaf {
+  list-style-image: url('../images/about/leaf-bullet.svg');
+}
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
