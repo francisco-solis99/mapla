@@ -60,7 +60,7 @@
       </section>
 
       <!-- Share section -->
-      <section class="my-16">
+      <section class="pb-16">
         <div class="container">
         <?= $this->include('components/Share') ?>
         </div>

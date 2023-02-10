@@ -58,6 +58,12 @@ $routes->group('distribuidor-pinturas', static function ($routes) {
 $routes->get('catalogo', 'Website\Catalogue::index', ['as' => 'website.catalogue.index']);
 $routes->get('preguntas-frecuentes', 'Website\Questions::index', ['as' => 'website.questions.index']);
 
+// Use product by type
+$routes->group('productos-por-tipo', static function ($routes) {
+    $routes->get('', 'Website\TypeProducts::index', ['as' => 'website.typeProducts.index']);
+    // Here will be the other types in a dynamic way (here is just a one single view to see it in phase 1)
+    $routes->get('pinturas-especiales', 'Website\Type::index', ['as' => 'website.type.index']);
+});
 
 
 /*
