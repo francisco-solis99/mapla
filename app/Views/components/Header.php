@@ -116,6 +116,7 @@
             <div class="px-4 my-2 lg:my-0 lg:px-0">
               <ul class="grid gap-y-1">
                 <li><a href="<?= url_to('website.catalogue.index') ?>" class="shadow__link">Catalogo</a></li>
+                <li><a href="<?= url_to('website.questions.index') ?>" class="shadow__link">Preguntas Frecuentes</a></li>
               </ul>
             </div>
           </div>
