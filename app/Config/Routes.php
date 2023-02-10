@@ -56,6 +56,7 @@ $routes->group('distribuidor-pinturas', static function ($routes) {
 
 // Use Catalogue route
 $routes->get('catalogo', 'Website\Catalogue::index', ['as' => 'website.catalogue.index']);
+$routes->get('preguntas-frecuentes', 'Website\Questions::index', ['as' => 'website.questions.index']);
 
 
 

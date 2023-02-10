@@ -14,7 +14,7 @@
 
 
 <?= $this->section('content') ?>
-    <main class="">
+    <main class="bg-mapla-light-100">
       <section class="relative bg-catalogue-back bg-cover bg-center bg-no-repeat min-h-[450px]">
         <div class="absolute inset-0 grid place-content-center text-center backdrop-brightness-50 text-white">
           <div class="container">

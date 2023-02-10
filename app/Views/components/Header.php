@@ -55,7 +55,7 @@
           aria-haspopup="true"
           aria-label="Lista de productos">Productos</button>
           <!-- Dropdown Productos -->
-          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:absolute lg:bg-white lg:text-mapla-dark-200 lg:w-4/5 lg:top-full lg:left-1/2 lg:-translate-x-1/2 lg:p-8 lg:grid lg:grid-cols-4 lg:justify-items-center lg:shadow-md">
+          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:absolute lg:bg-white lg:text-mapla-dark-200 lg:w-4/5 -lg:bottom-6 lg:left-1/2 lg:-translate-x-1/2 lg:p-8 lg:grid lg:grid-cols-4 lg:justify-items-center lg:shadow-md">
             <div class="my-2 px-4 lg:my-0 lg:px-0">
               <header>
                 <span class="font-bold text-lg">Tipo</span>
@@ -105,7 +105,20 @@
           <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">¿Dónde comprar?</a>
         </li>
         <li>
-          <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Herramientas</a>
+          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" aria-describedby="Nosotros"
+          aria-expanded="false"
+          aria-haspopup="true"
+          aria-label="Nosotros menu" data-dropdown-button>
+           Herramientas
+          </button>
+          <!-- Dropdown Nosotros -->
+          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:absolute lg:bg-white lg:text-mapla-dark-200 -lg:bottom-6 lg:p-4 lg:shadow-md">
+            <div class="px-4 my-2 lg:my-0 lg:px-0">
+              <ul class="grid gap-y-1">
+                <li><a href="<?= url_to('website.catalogue.index') ?>" class="shadow__link">Catalogo</a></li>
+              </ul>
+            </div>
+          </div>
         </li>
         <li>
           <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" aria-describedby="Nosotros"
@@ -115,13 +128,14 @@
            Nosotros
           </button>
           <!-- Dropdown Nosotros -->
-          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:absolute lg:bg-white lg:text-mapla-dark-200 lg:top-full lg:p-4 lg:shadow-md">
+          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:absolute lg:bg-white lg:text-mapla-dark-200 -lg:bottom-6 lg:p-4 lg:shadow-md">
             <div class="px-4 my-2 lg:my-0 lg:px-0">
               <ul class="grid gap-y-1">
                 <li><a href="<?= url_to('website.technology.index') ?>" class="shadow__link">Tecnologias</a></li>
                 <li><a href="<?= url_to('website.about.index') ?>" class="shadow__link">Acerca de Nosotros</a></li>
               </ul>
             </div>
+          </div>
         </li>
         <li>
           <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Blog</a>
