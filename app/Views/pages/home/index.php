@@ -11,6 +11,8 @@
     <script src="<?= base_url('js/components/navbar.js') ?>" defer type="module"></script>
     <script src="<?= base_url('js/modules/splide.min.js') ?>"></script>
     <script src="<?= base_url('js/components/carousels.js') ?>" defer type="module"></script>
+    <script src="<?= base_url('js/components/automaticCarousel.js') ?>" defer type="module"></script>
+    <script src="<?= base_url('js/components/carouselVertical.js') ?>" defer type="module"></script>
 <?= $this->endSection() ?>
 
 
@@ -34,20 +36,7 @@
       <section class="my-10">
         <h2 class="secundary__title text-3xl text-center">Productos destacados</h2>
         <div class="container my-16">
-          <!-- <div class="flex justify-between"> -->
-            <section class="splide" aria-label="Basic Structure Example">
-                  <div class="splide__arrows">
-                    <button class="splide__arrow splide__arrow--prev">
-                      <span class="flex items-center justify-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" fill="none"><path fill="#21252A" d="M9.6796 8.0427 1.984.3469C1.5213-.1156.8184-.1156.347.347c-.4625.4626-.4625 1.1655 0 1.6371l6.7616 6.7615-6.7616 6.7616c-.4625.4626-.4625 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2313 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2314.3471-.4627.3471-.8186 0-.347-.1157-.5871-.347-.8184Z"/></svg>
-                      </span>
-                    </button>
-                    <button class="splide__arrow splide__arrow--next">
-                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" fill="none"><path fill="#21252A" d="M9.6796 8.0427 1.984.3469C1.5213-.1156.8184-.1156.347.347c-.4625.4626-.4625 1.1655 0 1.6371l6.7616 6.7615-6.7616 6.7616c-.4625.4626-.4625 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2313 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2314.3471-.4627.3471-.8186 0-.347-.1157-.5871-.347-.8184Z"/></svg>
-                      </span>
-                    </button>
-                  </div>
+            <section class="splide products__carousel" aria-label="Basic Structure Example">
                 <div class="splide__track">
                   <ul class="splide__list">
                     <?php foreach ($products as $itr => $product): ?>
@@ -58,18 +47,14 @@
                   </ul>
                 </div>
             </section>
-          <!-- </div> -->
           </div>
         </div>
       </section>
 
       <!-- Banner carousel -->
       <section class="my-24">
-        <div class="container bg-red-500">
-          <picture class="">
-            <source srcset="<?= base_url('/images/home/banner-2x.webp')?>" media="(min-width: 768px)">
-            <img src="<?= base_url('/images/home/banner.webp')?>" alt="Banner" class="w-full object-cover">
-          </picture>
+        <div class="container">
+          <?= $this -> include('components/AutomaticCarousel') ?>
         </div>
       </section>
 
@@ -114,9 +99,17 @@
       </section>
 
       <!-- Solutions vertical carousel -->
-      <section class="min-h-[540px] py-10 flex items-center bg-mapla-light-100 ">
-        <div class="container">
-          <article class="grid md:grid-cols-2 gap-8 md:items-center">
+      <section class="relative min-h-[540px] pt-10 md:py-10 flex items-center bg-mapla-light-100 overflow-y-hidden">
+        <div class="vertical__navigation absolute z-10 flex flex-col right-5 md:left-4">
+          <label for="radio1">
+            <input type="radio" id="radio1" name="radio-vertical-carousel-btn" class="cursor-pointer accent-mapla-purple-200" checked>
+          </label>
+          <label for="radio2">
+            <input type="radio" id="radio2" name="radio-vertical-carousel-btn" class="cursor-pointer accent-mapla-purple-200">
+          </label>
+        </div>
+        <div class="vertical__carousel container h-[850px] md:h-[540px] flex flex-col transition-transform delay-100">
+          <article class="flex-shrink-0 h-full grid md:grid-cols-2 gap-8 md:items-center">
             <div class="md:max-w-lg">
               <h3 class="font-medium text-mapla-dark-200 text-2xl">Asesores</h3>
               <h2 class="font-ubuntu text-5xl sm:text-6xl mt-3 mb-8">
@@ -126,12 +119,12 @@
               <p class="mb-8">Nuestros asesores brindan soluciones a la medida de tus proyectos, acompañándote en cada etapa de este. Desde atención personalizada, aplicación de muestras, creación de productos especiales hasta planes de descuento por volumen de compra.</p>
               <a href="<?= url_to('website.about.index') ?>" class="cta__white">Acerca de Nosotros</a>
             </div>
-            <picture class="inline-block max-w-md min-w-[200px] w-3/4 justify-self-center sm:w-full md:justify-self-end">
+            <picture class="inline-block max-w-md min-w-[280px] w-3/4 justify-self-center sm:w-full md:justify-self-end">
               <source srcset="<?= base_url('/images/home/asesores1-2x.webp')?>" media="(min-width: 468px)">
               <img src="<?= base_url('/images/home/asesores1.webp')?>" alt="Soluciones - Mapla" class="w-full object-cover">
             </picture>
           </article>
-          <article class="grid md:grid-cols-2 gap-8 md:items-center">
+          <article class="flex-shrink-0 h-full grid md:grid-cols-2 gap-8 md:items-center">
             <div class="md:max-w-lg">
               <h3 class="font-medium text-mapla-dark-200 text-2xl">Asesores</h3>
               <h2 class="font-ubuntu text-5xl sm:text-6xl mt-3 mb-8">
@@ -141,9 +134,9 @@
               <p class="mb-8">Asignaremos a uno de nuestros asesores expertos para atender las necesidades de tu empresa, brindando soluciones que se adapten a lo que busca y personalizándolas para ti cumpliendo con los más altos niveles de calidad en todos nuestros productos.</p>
               <a href="<?= url_to('website.contact.index') ?>" class="cta__white">Contactanos </a>
             </div>
-            <picture class="inline-block max-w-md min-w-[200px] w-3/4 justify-self-center sm:w-full md:justify-self-end">
-              <source srcset="<?= base_url('/images/home/asesores1-2x.webp')?>" media="(min-width: 468px)">
-              <img src="<?= base_url('/images/home/asesores1.webp')?>" alt="Soluciones - Mapla" class="w-full object-cover">
+            <picture class="inline-block max-w-md min-w-[280px] w-3/4 justify-self-center sm:w-full md:justify-self-end">
+              <source srcset="<?= base_url('/images/home/asesores2-2x.webp')?>" media="(min-width: 468px)">
+              <img src="<?= base_url('/images/home/asesores2.webp')?>" alt="Soluciones - Mapla" class="w-full object-cover">
             </picture>
           </article>
         </div>

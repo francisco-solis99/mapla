@@ -9,6 +9,7 @@
 <?= $this->section('javascript') ?>
     <script src="<?= base_url('js/components/navbar.js') ?>" defer type="module"></script>
     <script src="<?= base_url('js/components/modal.js') ?>" defer type="module"></script>
+    <script src="<?= base_url('js/components/automaticCarousel.js') ?>" defer type="module"></script>
 <?= $this->endSection() ?>
 
 
@@ -48,7 +49,13 @@
             </article>
           </div>
           <?= $this->include('components/Modal') ?>
+        </div>
+      </section>
 
+      <!-- Banner carousel -->
+      <section class="my-24">
+        <div class="container">
+          <?= $this -> include('components/AutomaticCarousel') ?>
         </div>
       </section>
 

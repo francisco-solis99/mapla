@@ -1,5 +1,4 @@
-
-const productsCarousel = new Splide('.splide', {
+const productsCarousel = new Splide('.products__carousel', {
   pagination: false,
   type: 'loop',
   perPage: 3,
