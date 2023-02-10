@@ -1,8 +1,8 @@
 <?= $this->extend('layouts/default') ?>
 
 <?= $this->section('head') ?>
-    <title>Catálogo de pinturas y productos de decoración | Mapla</title>
-    <meta name="description" content="En Mapla te brindamos las mejores recomendaciones para lograr grandes resultados en tu proyecto ¡Dale color a tu proyecto!"/>
+    <title>Pintura ACRITEX | Mapla</title>
+    <meta name="description" content="Pintura texturizada que protege el área de aplicación, fabricada con resinas estiren-acrílicas, cargas minerales, aditivos estabilizadores y pigmentos."/>
 <?= $this->endSection() ?>
 
 

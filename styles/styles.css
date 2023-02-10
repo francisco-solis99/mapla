@@ -51,6 +51,10 @@
   list-style-image: url('../images/about/leaf-bullet.svg');
 }
 
+.item__list-product {
+  list-style-image: url('../images/products/check-bullet.svg');
+}
+
 details[open] summary > .summary-chevron-up {
   opacity: 0;
 }
