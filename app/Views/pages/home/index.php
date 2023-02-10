@@ -21,9 +21,9 @@
         <div class="slides">
           <article class="relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat h-full grid place-items-center">
             <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
-              <div class="mx-auto max-w-xl px-8 text-center sm:text-left lg:mx-0">
+              <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
                 <h1 class="text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
-                <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/5">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
+                <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
                 <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
               </div>
             </div>
@@ -34,13 +34,31 @@
       <section class="my-10">
         <h2 class="secundary__title text-3xl text-center">Productos destacados</h2>
         <div class="container my-16">
-          <div class="flex justify-between">
-            <?php foreach ($products as $itr => $product): ?>
-              <div>
-                  <?= $this -> setVar('product', $product) ->include('components/Product') ?>
-              </div>
-            <?php endforeach ?>
-          </div>
+          <!-- <div class="flex justify-between"> -->
+            <section class="splide" aria-label="Basic Structure Example">
+                  <div class="splide__arrows">
+                    <button class="splide__arrow splide__arrow--prev">
+                      <span class="flex items-center justify-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" fill="none"><path fill="#21252A" d="M9.6796 8.0427 1.984.3469C1.5213-.1156.8184-.1156.347.347c-.4625.4626-.4625 1.1655 0 1.6371l6.7616 6.7615-6.7616 6.7616c-.4625.4626-.4625 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2313 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2314.3471-.4627.3471-.8186 0-.347-.1157-.5871-.347-.8184Z"/></svg>
+                      </span>
+                    </button>
+                    <button class="splide__arrow splide__arrow--next">
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="18" fill="none"><path fill="#21252A" d="M9.6796 8.0427 1.984.3469C1.5213-.1156.8184-.1156.347.347c-.4625.4626-.4625 1.1655 0 1.6371l6.7616 6.7615-6.7616 6.7616c-.4625.4626-.4625 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2313 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2314.3471-.4627.3471-.8186 0-.347-.1157-.5871-.347-.8184Z"/></svg>
+                      </span>
+                    </button>
+                  </div>
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <?php foreach ($products as $itr => $product): ?>
+                      <div class="splide__slide">
+                          <?= $this -> setVar('product', $product) ->include('components/Product') ?>
+                      </div>
+                    <?php endforeach ?>
+                  </ul>
+                </div>
+            </section>
+          <!-- </div> -->
           </div>
         </div>
       </section>
@@ -72,7 +90,7 @@
       </section>
 
       <!-- Solutions -->
-      <section class="pt-8 bg-mapla-purple-200 text-white text-center">
+      <section class="pt-8 md:pt-0 bg-mapla-purple-200 text-white text-center">
         <div class="flex flex-col md:grid md:grid-cols-2 ">
           <div class="p-4 flex flex-col justify-center items-center">
             <div class="mb-10">

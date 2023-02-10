@@ -1,5 +1,5 @@
-<article class="">
-  <picture class="inline-block">
+<article class="flex flex-col items-center">
+  <picture class="inline-block max-w-[200px]">
     <img src="<?=base_url($product['imageUrl'])?>" alt="<?= esc($product['name']) ?> - Productos Mapla" class="w-full object-cover">
   </picture>
   <div class="text-center">
