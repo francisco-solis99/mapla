@@ -24,7 +24,7 @@ class Home extends BaseController
                 'price' => '1,000.00'
             ],
             [
-                'id' => '2',
+                'id' => '3',
                 'name' => 'Sellamapla-A',
                 'imageUrl' => '/images/products/product.webp',
                 'measure' => 'Cubeta 0L',

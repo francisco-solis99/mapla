@@ -17,9 +17,9 @@
     </div>
   </div>
   <!-- Navbar -->
-  <div class="flex justify-between items-center py-4 px-8 min-h-[140px]">
+  <div class="flex justify-between items-center py-4 px-8 max-h-[100px]">
     <a href="<?= url_to('website.home.index') ?>">
-      <picture class="inline-block max-w-[80px]">
+      <picture class="inline-block max-w-[70px]">
         <img src="<?= base_url('/logo.svg')?>" alt="Logotipo - Pinturas Mapla" class="w-full object-cover">
       </picture>
     </a>
