@@ -139,7 +139,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Blog</a>
+          <a href="<?= url_to('website.blog.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Blog</a>
         </li>
         <li class="lg:hidden">
           <a href="<?= url_to('website.contact.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Contacto</a>

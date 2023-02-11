@@ -68,6 +68,13 @@ $routes->group('productos-por-tipo', static function ($routes) {
 // Use single product view (just for phase 1)
 $routes->get('producto', 'Website\Product::index', ['as' => 'website.product.index']);
 
+// Use blog routes
+$routes->group('blog', static function ($routes) {
+    $routes->get('', 'Website\Blog::index', ['as' => 'website.blog.index']);
+    // Here will be the posts dynamically (just to see in the phase 1)
+    $routes->get('post', 'Website\Post::index', ['as' => 'website.post.index']);
+});
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
