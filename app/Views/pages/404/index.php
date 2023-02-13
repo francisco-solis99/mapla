@@ -12,9 +12,9 @@
           <img src="<?= base_url('logo-white.svg') ?>" alt="Pinturas Mapla - Logo">
         </picture>
         <div>
-          <hgroup class="mb-8 w-3/4 md:w-full">
+          <hgroup class="mb-8">
             <h1 class="text-6xl font-black">Error 404</h1>
-            <p class="mt-4">Parece que algo salió mal, la página que buscas no se encuentra.</p>
+            <p class="w-3/4 md:full mt-4">Parece que algo salió mal, la página que buscas no se encuentra.</p>
           </hgroup>
           <a href="<?= url_to('website.home.index') ?>" class="inline-flex items-center justify-center max-w-max text-mapla-green-100">
             <span class="inline-flex items-center">
@@ -27,7 +27,7 @@
           </a>
         </div>
 
-        <figure class="absolute max-w-xs md:max-w-md lg:max-w-lg right-0 bottom-0">
+        <figure class="absolute max-w-[280px] sm:max-w-xs md:max-w-md lg:max-w-md right-0 bottom-0">
           <img src="<?= base_url('images/404.webp') ?>" alt="Pinturas Mapla - Error 404" class="w-full bg-cover">
         </figure>
       </div>
