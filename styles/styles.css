@@ -55,10 +55,6 @@
   list-style-image: url('../images/products/check-bullet.svg');
 }
 
-details[open] summary > .summary-chevron-up {
-  opacity: 0;
-}
-
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
