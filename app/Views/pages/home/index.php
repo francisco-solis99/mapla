@@ -24,7 +24,7 @@
           <article class="relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat h-full grid place-items-center">
             <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
               <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
-                <h1 class="text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
+                <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
                 <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
                 <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
               </div>
@@ -85,16 +85,17 @@
                 Con nosotros, encontrarás la mejor asesoría y te brindaremos soluciones personalizadas para tu decoración, orientándote en elección de pintura, igualación de color y selección de acabados. Dale la mejor calidad con pinturas 100% mexicanas, luce nuestros colores.
               </p>
             </div>
-            <div class="flex flex-wrap gap-2 justify-center">
+            <!-- TODO: Hidden for now -->
+            <!-- <div class="flex flex-wrap gap-2 justify-center">
               <button class="cta__white min-w-[100px]">Academia Mapla</button>
               <button class="cta__white min-w-[100px]">Seleccionador de productos</button>
               <button class="cta__white min-w-[100px]">Colores</button>
-            </div>
+            </div> -->
           </div>
-          <picture class="inline-block mt-5 md:mt-0">
-            <source srcset="<?= base_url('/images/home/soluciones-2x.webp')?>" media="(min-width: 768px)">
-            <img src="<?= base_url('/images/home/soluciones-2x.webp')?>" alt="Soluciones - Pinturas Mapla" class="w-full object-cover h-full">
-          </picture>
+          <video autoplay loop muted playsinline>
+            <source src="<?= base_url('/images/home/soluciones.webm')?>m" type="video/webm">
+            <source src="<?= base_url('/images/home/soluciones.mp4')?>" type="video/mp4">
+          </video>
         </div>
       </section>
 
