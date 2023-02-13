@@ -16,7 +16,7 @@
 <?= $this->section('content') ?>
     <main class="bg-mapla-light-100">
       <section class="relative bg-catalogue-back bg-cover bg-center bg-no-repeat min-h-[450px]">
-        <div class="absolute inset-0 grid place-content-center text-center backdrop-brightness-50 text-white">
+        <div class="absolute inset-0 flex justify-center items-center text-center backdrop-brightness-50 text-white">
           <div class="container">
             <h1 class="font-bold text-5xl sm:text-6xl">Catálogo de productos</h1>
             <h2 class="mt-6 text-xl sm:text-2xl font-medium">Productos de pintura y decoración de interiores y exteriores</h2>
