@@ -28,10 +28,10 @@
             <span class="block">Mapla®</span>
             <span class="block">Soluciones y Pinturas</span>
           </h3>
-          <p class="mb-6 text-mapla-dark-100">
+          <p class="text-center sm:text-left mb-6 text-mapla-dark-100">
             Somos una empresa 100% mexicana comprometida con la constante actualización de materias primas, para poder brindarte la mejor vanguardia en tecnología mediante productos totalmente confiables y siempre conforme al cuidado del medio ambiente.
           </p>
-          <p class="text-mapla-dark-100">
+          <p class="text-center sm:text-left text-mapla-dark-100">
             A lo largo de nuestros más de 26 años de experiencia, nos hemos convertido en la marca líder en fabricación y distribución de pinturas en el sureste del país, contando con una reconocida presencia en Mérida, Cancún, Playa del Carmen, Cozumel, Tulum, Bacalar y Chetumal.
           </p>
         </div>
@@ -46,27 +46,27 @@
         <div class="container grid md:grid-cols-2 gap-7">
           <div class="p-8 sm:p-14 bg-mapla-light-200 text-mapla-dark-200 rounded-[20px]">
             <h3 class="w-full text-center sm:text-left sm:w-4/6 text-3xl sm:text-4xl text-mapla-purple-200 font-bold font-ubuntu">Destacamos en los siguientes aspectos</h3>
-            <ul class="mt-6">
-              <li class="item__list-leaf list-inside">Confianza sobre la calidad de nuestros productos.</li>
-              <li class="item__list-leaf list-inside">Atención híper personalizada para nuestros clientes.</li>
-              <li class="item__list-leaf list-inside">Productos amigables al medio ambiente.</li>
+            <ul class="mt-6 pl-6">
+              <li class="item__list-leaf">Confianza sobre la calidad de nuestros productos.</li>
+              <li class="item__list-leaf">Atención híper personalizada para nuestros clientes.</li>
+              <li class="item__list-leaf">Productos amigables al medio ambiente.</li>
             </ul>
           </div>
           <div class="p-8 sm:p-14 bg-mapla-light-200 text-mapla-dark-200 rounded-[20px]">
             <h3 class="w-full text-center sm:text-left sm:w-4/6 text-3xl sm:text-4xl text-mapla-purple-200 font-bold font-ubuntu">Garantizamos lo mejor para ti</h3>
             <ul class="mt-6">
-              <li class="item__list-leaf list-inside">El mejor precio y durabilidad vs contratipo.</li>
-              <li class="item__list-leaf list-inside">Tiempo de respuesta en igualación personalizada.</li>
-              <li class="item__list-leaf list-inside">Bajo olor y totalmente agradable al olfato.</li>
-              <li class="item__list-leaf list-inside">Asesoría en todo momento.</li>
+              <li class="item__list-leaf">El mejor precio y durabilidad vs contratipo.</li>
+              <li class="item__list-leaf">Tiempo de respuesta en igualación personalizada.</li>
+              <li class="item__list-leaf">Bajo olor y totalmente agradable al olfato.</li>
+              <li class="item__list-leaf">Asesoría en todo momento.</li>
             </ul>
           </div>
         </div>
       </section>
 
 
-      <section class="relative min-h-[105vh] grid place-items-center bg-gradient-to-r from-mapla-purple-100 to-mapla-purple-100/60">
-        <div class="absolute bg-leafs-back bg-no-repeat bg-cover lg:bg-center inset-0 w-full h-full"></div>
+      <section class="relative min-h-[105vh] grid place-items-center bg-gradient-to-r from-mapla-purple-200 to-mapla-purple-100">
+        <div class="absolute bg-leafs-back bg-no-repeat bg-contain bg-bottom md:bg-center inset-0 w-full h-full"></div>
         <div class="relative container">
           <hgroup class="text-white text-center font-bold">
             <p class="text-[28px]">☀️Porque hay climas diferentes 🌧</p>
