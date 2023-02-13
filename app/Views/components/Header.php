@@ -8,7 +8,7 @@
       <span>
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none"><path fill="#81DF3B" d="M2.8502.2139 2.018.17c-.2628 0-.5257.0877-.7009.263C.9227.7833.2657 1.4404.0904 2.3165-.2162 3.631.2657 5.208 1.4047 6.785c1.139 1.577 3.3293 4.1178 7.1843 5.213 1.2266.3505 2.1904.1314 2.979-.3504a2.5851 2.5851 0 0 0 1.139-1.6647l.1314-.6133c.0438-.1753-.0439-.3943-.2191-.4819L9.8594 7.6173c-.1752-.0877-.3942-.0438-.5256.1314L8.2386 9.1505c-.0877.0877-.219.1314-.3505.0877-.7447-.263-3.2417-1.3143-4.5998-3.9427-.0438-.1314-.0438-.2629.0439-.3504l1.0513-1.1828c.0877-.1314.1314-.3067.0877-.4381L3.2008.4767C3.1568.3453 3.0255.214 2.8502.214Z"/></svg>
       </span>
-      <span class="text-bold text-center md:text-left text-xs sm:text-sm ml-1">¡Llámanos! 829 761 9317</span>
+      <span class="text-bold text-center md:text-left text-[10px] sm:text-sm ml-1">¡Llámanos! 829 761 9317</span>
     </div>
     <p class="text-bold text-center md:text-left text-xs sm:text-sm justify-self-center hidden sm:inline">🔥30% de descuento en Barnices</p>
     <div class="justify-self-end">
