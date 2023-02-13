@@ -14,7 +14,7 @@ setInterval(() => {
   if (currentSlideCarousel >= numSlidesCarousel) currentSlideCarousel = 0
   btnsRadio[currentSlideCarousel].checked = true
   changeSlideCarousel()
-}, 5000)
+}, 15000)
 
 btnsRadio.forEach((btn, index) => btn.addEventListener('change', () => {
   currentSlideCarousel = index
