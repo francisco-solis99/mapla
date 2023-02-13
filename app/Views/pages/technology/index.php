@@ -32,8 +32,8 @@
         </div>
         <div class="container relative md:flex md:justify-between md:items-center">
           <div class="mb-4 md:w-2/5">
-            <h2 class="font-ubuntu text-mapla-purple-200 font-bold text-[45px] mb-2">La mejor opción en pinturas ecológicas</h2>
-            <button class="p-3 bg-mapla-orange-100 text-white rounded-3xl text-sm transition-opacity delay-100 hover:opacity-90">Compromiso social</button>
+            <h2 class="font-ubuntu text-mapla-purple-200 font-bold text-4xl lg:text-[45px] lg:leading-[54px] mb-2">La mejor opción en pinturas ecológicas</h2>
+            <button class="mt-4 p-3 bg-mapla-orange-100 text-white rounded-3xl text-sm transition-opacity delay-100 hover:opacity-90">Compromiso social</button>
           </div>
           <p class="md:w-2/5 text-mapla-dark-100">Somos una empresa 100% mexicana comprometida con la constante actualización de materias primas, a la vanguardia de la tecnología, con productos totalmente confiables y siempre conforme al cuidado del medio ambiente.</p>
         </div>
@@ -42,10 +42,10 @@
       <section class="my-9">
         <div class="container text-center">
           <div class="mb-10">
-            <h2 class="text-mapla-purple-200 font-bold font-ubuntu text-[45px]">Pinturas Low Voc</h2>
-            <p class="text-mapla-dark-100 max-w-5xl mx-auto">La pintura “Low Voc” se caracteriza por la ausencia del fuerte olor a “ pintura fresca” que desprenden las pinturas que contienen altos niveles de VOC, que incluso pueden causar dolor de cabeza o problemas de memoria cuando se inhalan. Mapla elige hacer pinturas amigables con el medio ambiente y cuidar tu salud, es por eso que en nuestra producción cuidamos minimizar al máximo los Compuestos Volátiles de Carbono.</p>
+            <h2 class="text-mapla-purple-200 font-bold font-ubuntu text-4xl lg:text-[45px]">Pinturas Low Voc</h2>
+            <p class="mt-6 text-mapla-dark-100 max-w-5xl mx-auto">La pintura “Low Voc” se caracteriza por la ausencia del fuerte olor a “ pintura fresca” que desprenden las pinturas que contienen altos niveles de VOC, que incluso pueden causar dolor de cabeza o problemas de memoria cuando se inhalan. Mapla elige hacer pinturas amigables con el medio ambiente y cuidar tu salud, es por eso que en nuestra producción cuidamos minimizar al máximo los Compuestos Volátiles de Carbono.</p>
           </div>
-          <picture class="inline-block min-w-[200px] max-w-4xl">
+          <picture class="inline-block min-w-[220px] max-w-4xl">
             <source srcset="<?= base_url('/images/about/tech-lowvoc-2x.webp')?>" media="(min-width: 468px)">
             <img src="<?= base_url('/images/about/tech-lowvoc.webp')?>" alt="Pinturas Low Voc" class="w-full object-cover">
           </picture>
