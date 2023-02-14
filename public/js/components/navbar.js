@@ -14,30 +14,40 @@ btnNavbarOpen.addEventListener('click', toggleNavBar)
 btnNavbarClose.addEventListener('click', toggleNavBar)
 
 // Submenus/dropdown
+addDropDowns()
 
-function toggleDropDown (dropDown) {
-  const classesToToggle = ['opacity-0', 'max-h-0', 'scale-0']
-  toggleCSSclasses(dropDown, classesToToggle)
-}
+function addDropDowns () {
+  const isMediaMatch = window.matchMedia('(max-width: 1024px)').matches
 
-function hideDropdown (dropDown) {
-  const classesToAdd = ['opacity-0', 'max-h-0', 'scale-0']
-  addCSSclasses(dropDown, classesToAdd)
-}
+  console.log(isMediaMatch)
+  if (!isMediaMatch) return
 
-const btnsDropdown = $({ selector: '[data-dropdown-button]', multiple: true })
+  console.log('match?')
 
-navbar.addEventListener('click', (e) => {
-  const { target } = e
-  const isDropDownBtn = target.matches('[data-dropdown-button]')
-  if (!isDropDownBtn) return
+  function toggleDropDown (dropDown) {
+    const classesToToggle = ['opacity-0', 'max-h-0', 'scale-0']
+    toggleCSSclasses(dropDown, classesToToggle)
+  }
 
-  let currentBtnDropDown = null
-  currentBtnDropDown = target.closest('[data-dropdown-button]')
-  toggleDropDown(currentBtnDropDown.nextElementSibling)
+  function hideDropdown (dropDown) {
+    const classesToAdd = ['opacity-0', 'max-h-0', 'scale-0']
+    addCSSclasses(dropDown, classesToAdd)
+  }
 
-  btnsDropdown.forEach(btn => {
-    if (btn === currentBtnDropDown) return
-    hideDropdown(btn.nextElementSibling)
+  const btnsDropdown = $({ selector: '[data-dropdown-button]', multiple: true })
+
+  navbar.addEventListener('click', (e) => {
+    const { target } = e
+    const isDropDownBtn = target.matches('[data-dropdown-button]')
+    if (!isDropDownBtn) return
+
+    let currentBtnDropDown = null
+    currentBtnDropDown = target.closest('[data-dropdown-button]')
+    toggleDropDown(currentBtnDropDown.nextElementSibling)
+
+    btnsDropdown.forEach(btn => {
+      if (btn === currentBtnDropDown) return
+      hideDropdown(btn.nextElementSibling)
+    })
   })
-})
+}
