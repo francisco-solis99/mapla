@@ -29,5 +29,5 @@
     <span class="text-mapla-dark-200 font-bold text-sm"><?= esc($shop['phone']) ?></span>
   </p>
   <button class="location__btn-map py-3 px-4 text-sm bg-mapla-purple-100 text-white font-bold rounded-full">Ver Sucursal</button>
-  <button class="ml-3 py-3 px-4 text-sm bg-white text-mapla-dark-200 border border-mapla-dark-200 font-bold rounded-full">Cómo llegar</button>
+  <a href="<?= esc($shop['directions']) ?>" target="_blank" aria-label="Direcciones para llegar a la sucursal" class="ml-3 py-3 px-4 text-sm bg-white text-mapla-dark-200 border border-mapla-dark-200 font-bold rounded-full">Cómo llegar</a>
 </article>

@@ -21,7 +21,7 @@ Encuentra pinturas, barnices, selladores, recubrimientos, impermeabilizantes y m
                     <h1 class="font-black text-[40px]">Sucursales Mapla</h1>
                     <h2 class="font-medium text-2xl">Las mejores pinturas ecológicas a tu alcance</h2>
                     <p class="text-mapla-dark-100">Encuentra todo el material que necesites para renovar tu espacio en cualquiera de nuestras sucursales.</p>
-                    <div class="locations mt-6">
+                    <div class="locations mt-4">
                         <div class="px-2 border border-mapla-dark-100 rounded-3xl">
                             <select name="location" id="select-location" class="py-2 w-full bg-white cursor-pointer border-0 rounded-3xl outline-none">
                                 <option value="" hidden>Buscar por ciudad</option>
@@ -69,7 +69,7 @@ Encuentra pinturas, barnices, selladores, recubrimientos, impermeabilizantes y m
                 </article>
                 <aside class="bg-slate-200">
                     <div>
-                        <iframe id="mapla-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.5154548205287!2d-86.84438478512989!3d21.092006485964184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2be4f5c48665%3A0x810485dbfa3640df!2sMapla%20Soluciones%20y%20Pinturas%20Suc.Colosio!5e0!3m2!1ses!2smx!4v1676397213785!5m2!1ses!2smx" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+                        <iframe id="mapla-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.558887849823!2d-86.85859918512855!3d21.169945985922112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2c6e4af85d4d%3A0x893bcf2e1552fa07!2sMapla%20Soluciones%20y%20Pinturas%20Suc.Talleres!5e0!3m2!1ses!2smx!4v1676397177015!5m2!1ses!2smx" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
                     </div>
                 </aside>
             </div>
