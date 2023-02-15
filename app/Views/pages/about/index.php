@@ -83,7 +83,7 @@
           <div class="w-4/5 mx-auto text-center lg:w-full lg:mx-0 lg:text-left">
             <h3 class="text-4xl font-bold font-ubuntu text-mapla-purple-200">Catálogo de productos</h3>
             <p class="my-4 mx-auto lg:mx-0 text-mapla-dark-100">Dentro de nuestro amplio catálogo de productos podrás encontrar las mejores soluciones para todo tipo de aplicación y superficie.</p>
-            <a href="#" class="inline-block p-3 text-sm bg-mapla-orange-100 text-white rounded-full">Ver catálogos</a>
+            <a href="<?= url_to('website.catalogue.index') ?>" class="inline-block p-3 text-sm bg-mapla-orange-100 text-white rounded-full">Ver catálogos</a>
           </div>
           <article class="text-center">
             <img src="<?= base_url('/images/about/icons/impermeabilizante.svg') ?>" alt="Impermeabilizante - Mapla" class="mx-auto">

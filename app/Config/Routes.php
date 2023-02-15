@@ -75,6 +75,9 @@ $routes->group('blog', static function ($routes) {
     $routes->get('post', 'Website\Post::index', ['as' => 'website.post.index']);
 });
 
+// Use shops route (where to buy)
+$routes->get('tiendas', 'Website\Shops::index', ['as' => 'website.shops.index']);
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

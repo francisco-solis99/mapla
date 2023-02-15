@@ -156,7 +156,7 @@
             </span>
             <h2 class="secundary__title md:my-5 text-4xl font-ubuntu">Servicio personalizado Mapla</h2>
             <p class="text-mapla-dark-100 mb-5">Cada proyecto es diferente, por eso en nuestras sucursales te brindaremos asesoría personalizada para que logres el resultado que buscas con los mejores productos.</p>
-            <a href="#" class="cta__white">Sucursales</a>
+            <a href="<?= url_to('website.shops.index') ?>" class="cta__white">Sucursales</a>
           </div>
         </div>
       </section>

@@ -55,7 +55,7 @@
           aria-haspopup="true"
           aria-label="Lista de productos">Productos</button>
           <!-- Dropdown Productos -->
-          <div class="navbar__dropdown lg:w-4/5 -lg:bottom-6 lg:left-1/2 lg:-translate-x-1/2 lg:p-8 lg:grid lg:grid-cols-4 lg:justify-items-center">
+          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:w-4/5 -lg:bottom-6 lg:left-1/2 lg:-translate-x-1/2 lg:p-8 lg:grid lg:grid-cols-4 lg:justify-items-center">
             <div class="my-2 px-4 lg:my-0 lg:px-0">
               <header>
                 <span class="font-bold text-lg">Tipo</span>
@@ -102,7 +102,7 @@
           </div>
         </li>
         <li>
-          <a href="#" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">¿Dónde comprar?</a>
+          <a href="<?= url_to('website.shops.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">¿Dónde comprar?</a>
         </li>
         <li class="group">
           <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" aria-describedby="Nosotros"
@@ -112,7 +112,7 @@
            Herramientas
           </button>
           <!-- Dropdown Nosotros -->
-          <div class="navbar__dropdown lg:p-4">
+          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:p-4">
             <div class="px-4 my-2 lg:my-0 lg:px-0">
               <ul class="grid gap-y-1">
                 <li><a href="<?= url_to('website.catalogue.index') ?>" class="shadow__link">Catalogo</a></li>
@@ -129,7 +129,7 @@
            Nosotros
           </button>
           <!-- Dropdown Nosotros -->
-          <div class="navbar__dropdown lg:p-4">
+          <div class="navbar__dropdown opacity-0 max-h-0 scale-0 lg:p-4">
             <div class="px-4 my-2 lg:my-0 lg:px-0">
               <ul class="grid gap-y-1">
                 <li><a href="<?= url_to('website.technology.index') ?>" class="shadow__link">Tecnologias</a></li>
