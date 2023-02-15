@@ -21,7 +21,7 @@
     <!-- Herop Carousel -->
       <section class="min-h-[560px] bg-slate-200 grid">
         <div class="slides">
-          <article class="relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat h-full grid place-items-center">
+          <article class="bg-hero-slide-1 bg-cover bg-center bg-no-repeat h-full grid place-items-center">
             <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
               <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
                 <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
