@@ -1,8 +1,8 @@
 <?= $this->extend('layouts/default') ?>
 
 <?= $this->section('head') ?>
-    <title>Productos Mapla - Pinturas, Selladores, Impermeabilizantes, y más</title>
-    <meta name="description" content="Amplia variedad de soluciones especializadas para decorar tus proyectos. Pinturas, selladores, impermeabilizantes, barnices, aditivos, productos en polvo"/>
+    <title>Productos de Pintura Para Superficies Interiores y Exteriores</title>
+    <meta name="description" content="Contamos con pintura, selladores, impermeabilizantes, barnices para diversos tipos de superficies como: Tablaroca, Concreto, Madera, Acero y más"/>
 <?= $this->endSection() ?>
 
 
@@ -13,11 +13,11 @@
 
 <?= $this->section('content') ?>
     <main class="">
-      <section class="relative bg-types-back bg-cover bg-center bg-no-repeat min-h-[450px]">
+      <section class="relative bg-surfaces-back bg-cover bg-center bg-no-repeat min-h-[450px]">
         <div class="absolute inset-0 flex justify-center items-center text-center backdrop-brightness-50 text-white">
           <div class="container">
-            <h1 class="font-bold text-5xl sm:text-6xl">Tipos de productos</h1>
-            <h2 class="mt-6 text-xl sm:text-2xl font-medium">Pinturas, Selladores, Impermeabilizantes y demás productos para el recubrimiento arquitectónico</h2>
+            <h1 class="font-bold text-5xl sm:text-6xl">Productos por Superficie</h1>
+            <h2 class="mt-6 text-xl sm:text-2xl font-medium">¡Encuentra pintura, selladores, impermeabilizantes, barnices y mucho más!</h2>
           </div>
         </div>
       </section>
@@ -25,15 +25,15 @@
       <section class="my-16">
         <div class="container">
           <hgroup class="mb-10 text-center">
-            <h2 class="text-4xl font-bold font-ubuntu text-mapla-purple-200">Productos Mapla</h2>
-            <p class="mt-5 max-w-5xl mx-auto text-mapla-dark-100">En Pinturas Mapla® contamos con la más amplia selección de productos especializados para mejorar la apariencia y aumentar la resistencia así como durabilidad de tus proyectos frente a las condiciones climáticas extremas del Caribe Mexicano.</p>
+            <h2 class="text-4xl font-bold font-ubuntu text-mapla-purple-200">Tipos de superficies</h2>
+            <p class="mt-5 max-w-5xl mx-auto text-mapla-dark-100">Conoce nuestra variedad de productos especializados para decorar y aumentar la durabilidad de tus proyectos ante las altas temperaturas del Caribe Mexicano. </p>
           </hgroup>
 
           <section>
-            <div class="container grid grid-cols[repeat(auto-fit,minmax(230px,1fr))] sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-12">
+            <div class="container grid grid-cols[repeat(auto-fit,minmax(230px,1fr))] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-7 gap-y-12">
               <!-- Types Cards -->
-              <?php foreach ($types as $itr => $type): ?>
-                <?= $this -> setVar('type', $type) -> include('components/TypeCard') ?>
+              <?php foreach ($surfaces as $itr => $surface): ?>
+                <?= $this -> setVar('surface', $surface) -> include('components/SurfaceCard') ?>
               <?php endforeach ?>
             </div>
           </section>

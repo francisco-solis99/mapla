@@ -39,7 +39,9 @@ module.exports = {
         'about-back': "url('../images/about/about.webp')",
         'leafs-back': "url('../images/about/leafs.webp')",
         'catalogue-back': "url('../images/catalogue/catalogue.webp')",
-        'wave-back': "url('../images/about/wave.svg')"
+        'wave-back': "url('../images/about/wave.svg')",
+        'types-back': "url('../images/products/type/types.webp')",
+        'surfaces-back': "url('../images/products/surface/surfaces.webp')"
       }
     }
   },

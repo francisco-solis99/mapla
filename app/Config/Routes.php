@@ -65,6 +65,13 @@ $routes->group('productos-por-tipo', static function ($routes) {
     $routes->get('pinturas-especiales', 'Website\Type::index', ['as' => 'website.type.index']);
 });
 
+// Use product by surface routes
+$routes->group('productos-por-superficie', static function ($routes) {
+    $routes->get('', 'Website\SurfaceProducts::index', ['as' => 'website.surfaceProducts.index']);
+    // Here will be the other types in a dynamic way (here is just a one single view to see it in phase 1)
+    $routes->get('pintura-tablaroca', 'Website\Surface::index', ['as' => 'website.surface.index']);
+});
+
 // Use single product view (just for phase 1)
 $routes->get('producto', 'Website\Product::index', ['as' => 'website.product.index']);
 
