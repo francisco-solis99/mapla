@@ -61,15 +61,15 @@
                 <span class="font-bold text-lg">Tipo</span>
               </header>
               <ul class="mt-2 px-4 lg:px-0 grid gap-y-1">
-                <li><a href="#" class="shadow__link">Pinturas Arquitectónicas</a></li>
-                <li><a href="#" class="shadow__link">Pinturas Especiales</a></li>
-                <li><a href="#" class="shadow__link">Selladores</a></li>
-                <li><a href="#" class="shadow__link">Recubrimientos Texturizados</a></li>
-                <li><a href="#" class="shadow__link">Recubrimientos Especiales</a></li>
-                <li><a href="#" class="shadow__link">Barnices</a></li>
-                <li><a href="#" class="shadow__link">Aditivos</a></li>
-                <li><a href="#" class="shadow__link">Productos en polvo</a></li>
-                <li><a href="#" class="shadow__link">Impermeabilizantes</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Pinturas Arquitectónicas</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Pinturas Especiales</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Selladores</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Recubrimientos Texturizados</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Recubrimientos Especiales</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Barnices</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Aditivos</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Productos en polvo</a></li>
+                <li><a href="<?= url_to('website.type.index') ?>" class="shadow__link">Impermeabilizantes</a></li>
               </ul>
             </div>
             <div class="my-2 px-4 lg:my-0 lg:px-0">
@@ -78,97 +78,97 @@
               </header>
               <ul class="mt-2 px-4 lg:px-0 grid gap-y-2 gap-x-8 grid-rows-[repeat(9,minmax(0,1fr))] grid-cols-2 grid-flow-col">
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie1.webp') ?>" alt="Tablaroca - Pinturas Mapla">
                     <span class="inline-block ml-1">Tablaroca</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie2.webp') ?>" alt="Concreto - Pinturas Mapla">
                     <span class="inline-block ml-1">Concreto</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie3.webp') ?>" alt="Madera - Pinturas Mapla">
                     <span class="inline-block ml-1">Madera</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie4.webp') ?>" alt="Durock - Pinturas Mapla">
                     <span class="inline-block ml-1">Durock</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie5.webp') ?>" alt="Pavimento - Pinturas Mapla">
                     <span class="inline-block ml-1">Pavimento</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie6.webp') ?>" alt="Plafones - Pinturas Mapla">
                     <span class="inline-block ml-1">Plafones</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie7.webp') ?>" alt="Tejas - Pinturas Mapla">
                     <span class="inline-block ml-1">Tejas</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie8.webp') ?>" alt="Adocreto - Pinturas Mapla">
                     <span class="inline-block ml-1">Adocreto</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie9.webp') ?>" alt="Guarniciones - Pinturas Mapla">
                     <span class="inline-block ml-1">Guarniciones</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie10.webp') ?>" alt="Asfalto - Pinturas Mapla">
                     <span class="inline-block ml-1">Asfalto</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie11.webp') ?>" alt="Canchas - Pinturas Mapla">
                     <span class="inline-block ml-1">Canchas</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie12.webp') ?>" alt="Acero - Pinturas Mapla">
                     <span class="inline-block ml-1">Acero</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie13.webp') ?>" alt="Losas - Pinturas Mapla">
                     <span class="inline-block ml-1">Losas</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie14.webp') ?>" alt="Asbesto - Pinturas Mapla">
                     <span class="inline-block ml-1">Asbesto</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie15.webp') ?>" alt="Hormigón - Pinturas Mapla">
                     <span class="inline-block ml-1">Hormigón</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="shadow__link flex">
+                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
                     <img src="<?= base_url('images/home/superficie16.webp') ?>" alt="Barro - Pinturas Mapla">
                     <span class="inline-block ml-1">Barro</span>
                   </a>
