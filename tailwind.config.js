@@ -38,7 +38,8 @@ module.exports = {
         'contact-back': "url('../images/contact/contact-2x.webp')",
         'about-back': "url('../images/about/about.webp')",
         'leafs-back': "url('../images/about/leafs.webp')",
-        'catalogue-back': "url('../images/catalogue/catalogue.webp')"
+        'catalogue-back': "url('../images/catalogue/catalogue.webp')",
+        'wave-back': "url('../images/about/wave.svg')"
       }
     }
   },

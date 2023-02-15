@@ -26,10 +26,7 @@
         </div>
       </section>
 
-      <section class="py-6 relative min-h-[405px] grid items-center sm:items-start md:items-center overflow-hidden bg-mapla-light-200 sm:bg-white">
-        <div class="absolute inset-0">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 405" fill="none" class="min-h-[405px]"><path fill="#FBF7FF" fill-rule="evenodd" d="M0 12.7438S120.09.2109 392 .2109c271.91 0 491 43.8833 683 43.8833s325-31.3504 325-31.3504V372.244s-96.85 31.967-325 31.967c-116.39 0-448.097-39.602-683-47.793-234.903-8.19-392 15.826-392 15.826V12.7438Z" clip-rule="evenodd"/></svg>
-        </div>
+      <section class="bg-wave-back py-6 min-h-[405px] grid items-center sm:items-start md:items-center overflow-hidden bg-mapla-light-200 sm:bg-white">
         <div class="container relative md:flex md:justify-between md:items-center">
           <div class="mb-4 md:w-2/5">
             <h2 class="font-ubuntu text-mapla-purple-200 font-bold text-4xl lg:text-[45px] lg:leading-[54px] mb-2">La mejor opción en pinturas ecológicas</h2>
