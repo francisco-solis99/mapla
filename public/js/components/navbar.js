@@ -19,10 +19,7 @@ addDropDowns()
 function addDropDowns () {
   const isMediaMatch = window.matchMedia('(max-width: 1024px)').matches
 
-  console.log(isMediaMatch)
   if (!isMediaMatch) return
-
-  console.log('match?')
 
   function toggleDropDown (dropDown) {
     const classesToToggle = ['opacity-0', 'max-h-0', 'scale-0']
@@ -39,6 +36,7 @@ function addDropDowns () {
   navbar.addEventListener('click', (e) => {
     const { target } = e
     const isDropDownBtn = target.matches('[data-dropdown-button]')
+
     if (!isDropDownBtn) return
 
     let currentBtnDropDown = null
