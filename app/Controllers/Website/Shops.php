@@ -243,8 +243,28 @@ class Shops extends BaseController
             ]
         ];
 
+        function group_array($property, $data) {
+            $grouped_array = array();
+
+            foreach($data as $value) {
+                if(array_key_exists($property, $value)){
+                    $grouped_array[$value[$property]][] = $value;
+                }else{
+                    $grouped_array[""][] = $value;
+                }
+            }
+
+            return $grouped_array;
+        }
+
+        $shopsByCity = group_array("city", $shops);
+        $cities = array_keys($shopsByCity);
+        // print_r($shopsByCity['Cancún'][0]['name']);
+
         return view('pages/shops/index', [
-            'shops' => $shops
+            'shops' => $shops,
+            'cities' => $cities,
+            'shopsByCity' => $shopsByCity
         ]);
     }
 }

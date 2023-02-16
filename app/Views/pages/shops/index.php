@@ -22,40 +22,10 @@ Encuentra pinturas, barnices, selladores, recubrimientos, impermeabilizantes y m
                     <h2 class="font-medium text-2xl">Las mejores pinturas ecológicas a tu alcance</h2>
                     <p class="text-mapla-dark-100">Encuentra todo el material que necesites para renovar tu espacio en cualquiera de nuestras sucursales.</p>
                     <div class="locations mt-4">
-                        <div class="px-2 border border-mapla-dark-100 rounded-3xl">
-                            <select name="location" id="select-location" class="py-2 w-full bg-white cursor-pointer border-0 rounded-3xl outline-none">
-                                <option value="" hidden>Buscar por ciudad</option>
-                                <optgroup label="Cancun">
-                                    <option value="Av. Puerto Juárez.">Av. Puerto Juárez.</option>
-                                    <option value="Blvd. Luis Donaldo Colosio">Blvd. Luis Donaldo Colosio</option>
-                                    <option value="Av. Cancún">Av. Cancún</option>
-                                </optgroup>
-                                <optgroup label="Playa del Carmen">
-                                    <option value="Col. Gonzalo Guerrero Norte">Col. Gonzalo Guerrero Norte</option>
-                                </optgroup>
-                                <optgroup label="Cozumel">
-                                    <option value="Av. 65  Sur">Av. 65  Sur</option>
-                                </optgroup>
-                                <optgroup label="Chetumal">
-                                    <option value="Av. Benito Juárez">Av. Benito Juárez</option>
-                                </optgroup>
-                                <optgroup label="Merida">
-                                    <option value="Col. Leandro Valle">Col. Leandro Valle</option>
-                                </optgroup>
-                                <optgroup label="Tulum">
-                                    <option value="Calle Satélite Norte">Calle Satélite Norte</option>
-                                </optgroup>
-                                <optgroup label="Petempich">
-                                    <option value="Col. 28 de Julio">Col. 28 de Julio</option>
-                                </optgroup>
-                                <optgroup label="Valladolid">
-                                    <option value="Col. Centro">Col. Centro</option>
-                                </optgroup>
-                                <optgroup label="José María Morelos">
-                                    <option value="Col. Vicente Guerrero">Col. Vicente Guerrero</option>
-                                </optgroup>
-                            </select>
+                        <div>
+                            <?= $this -> setVar('cities', $cities) -> setVar('shopByCity', $shopsByCity) -> include('components/SelectMap') ?>
                         </div>
+
 
                         <section class="mt-4">
                             <?php foreach ($shops as $itr => $shop): ?>

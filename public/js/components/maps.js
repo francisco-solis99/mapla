@@ -1,8 +1,26 @@
 import { $ } from '../utils/index.js'
 
-const selectLocation = $({ selector: '#select-location' })
+const select = $({ selector: '.map__select' })
+const selectedLocation = $({ selector: '.map__selected' })
+const selectMapsOptions = $({ selector: '.map__option', multiple: true })
+const dropdownMap = $({ selector: '.map__dropdown' })
+
 const locations = $({ selector: '.location', multiple: true })
 const iframeMap = $({ selector: '#mapla-map' })
+
+// Open and close the select and dropdown with the optioins
+select.addEventListener('click', () => {
+  dropdownMap.classList.toggle('hidden')
+  dropdownMap.classList.toggle('block')
+})
+
+// Change the selected Map when click an option map
+selectMapsOptions.forEach(option => option.addEventListener('click', () => {
+  const valueMap = option.textContent.trim()
+  selectedLocation.textContent = valueMap
+  console.log(valueMap)
+  toggleLocations(valueMap)
+}))
 
 // Appear the location selected and dissapear the rest are not selected
 function toggleLocations (locationName) {
@@ -18,11 +36,6 @@ function toggleLocations (locationName) {
     containerLocation.classList.remove('block')
   })
 }
-
-selectLocation.addEventListener('change', (e) => {
-  const nameLocation = e.target.value
-  toggleLocations(nameLocation)
-})
 
 // Chnage the map according to the button pressed
 locations.forEach(location => location.addEventListener('click', (e) => {
