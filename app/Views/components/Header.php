@@ -49,7 +49,7 @@
           <a href="<?= url_to('website.home.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Inicio</a>
         </li>
         <li class="group">
-          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" data-dropdown-button
+          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link after:-bottom-[1px]" data-dropdown-button
           aria-describedby="Productos"
           aria-expanded="false"
           aria-haspopup="true"
@@ -188,7 +188,7 @@
           <a href="<?= url_to('website.shops.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">¿Dónde comprar?</a>
         </li>
         <li class="group">
-          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" aria-describedby="Nosotros"
+          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link after:-bottom-[1px]" aria-describedby="Nosotros"
           aria-expanded="false"
           aria-haspopup="true"
           aria-label="Nosotros menu" data-dropdown-button>
@@ -205,7 +205,7 @@
           </div>
         </li>
         <li class="group">
-          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link" aria-describedby="Nosotros"
+          <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link after:-bottom-[1px]" aria-describedby="Nosotros"
           aria-expanded="false"
           aria-haspopup="true"
           aria-label="Nosotros menu" data-dropdown-button>

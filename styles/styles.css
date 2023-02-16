@@ -40,8 +40,16 @@
 
   }
 
-  .shadow__link:hover {
-    text-decoration: underline;
+  .shadow__link {
+    @apply relative
+  }
+
+  .shadow__link::after {
+    @apply lg:content-[''] lg:absolute lg:bg-mapla-dark-200 lg:h-[2px] lg:w-0 lg:left-0 lg:-bottom-[3px] lg:transition-all lg:delay-100
+  }
+
+  .shadow__link:hover::after {
+    @apply lg:w-full
   }
 
   .navbar__dropdown {
