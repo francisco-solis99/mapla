@@ -1,7 +1,7 @@
 
 
 <!-- <div class="overlay fixed inset-0 z-10 bg-black opacity-80"></div> -->
-<header class="relative overflow-x-clip">
+<header class="relative">
   <!-- Promo -->
   <div class="grid grid-cols-2 sm:grid-cols-3 items-center py-4 px-8 min-h-[40px] bg-mapla-purple-200 text-white">
     <div class="flex items-center mr-auto">
