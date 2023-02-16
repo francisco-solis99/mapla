@@ -33,9 +33,6 @@ $routes->set404Override(static function () {
 // route since we don't have to scan directories.
 $routes->get('/', 'Website\Home::index', ['as' => 'website.home.index']);
 
-// Thanks route
-$routes->get('gracias', 'Website\Thanks::index', ['as' => 'website.thanks.index']);
-
 // Politics Privacy route
 $routes->get('aviso-de-privacidad', 'Website\Privacy::index', ['as' => 'website.privacy.index']);
 
@@ -45,8 +42,12 @@ $routes->get('politicas-de-uso', 'Website\Cookies::index', ['as' => 'website.coo
 // Use Promotions route
 $routes->get('promociones', 'Website\Promotions::index', ['as' => 'website.promotions.index']);
 
-// Use Contact route
-$routes->get('contacto', 'Website\Contact::index', ['as' => 'website.contact.index']);
+// Use Contact route and Thanks
+$routes->group('contacto', static function ($routes) {
+    $routes->get('', 'Website\Contact::index', ['as' => 'website.contact.index']);
+    $routes->get('gracias', 'Website\Thanks::index', ['as' => 'website.thanks.index']);
+});
+
 
 // Use About us routes
 $routes->group('distribuidor-pinturas', static function ($routes) {
