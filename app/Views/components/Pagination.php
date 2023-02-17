@@ -9,7 +9,7 @@
       </button>
     </li>
     <li class="pagination__page">
-      <a href="#" aria-current="page" class="px-3 py-2 leading-tight bg-mapla-dark-200 text-white hover:bg-mapla-dark-200 hover:text-white rounded-full">1</a>
+      <a href="#" aria-current="page" class="px-3 py-2 leading-tight text-gray-500 bg-white hover:bg-mapla-dark-200 hover:text-white rounded-full">1</a>
     </li>
     <li class="pagination__page">
       <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white hover:bg-mapla-dark-200 hover:text-white rounded-full">2</a>
