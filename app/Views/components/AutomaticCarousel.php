@@ -1,18 +1,18 @@
-<section class="relative overflow-hidden">
-  <div class="carousel flex transition-transform delay-100" aria-label="carousel">
-    <article class="relative flex-shrink-0 w-full h-full">
+<section class="automatic__carousel relative overflow-hidden">
+  <div class="automatic__carousel-slider flex transition-transform delay-100" aria-label="automatic carousel">
+    <article class="automatic__carousel-slide relative flex-shrink-0 w-full h-full">
       <picture class="inline-block">
         <source srcset="<?= base_url('/images/home/banner-2x.webp')?>" media="(min-width: 768px)">
         <img src="<?= base_url('/images/home/banner.webp')?>" alt="Banner" class="w-full h-full object-cover">
       </picture>
     </article>
-    <article class="relative flex-shrink-0 w-full h-full">
+    <article class="automatic__carousel-slide relative flex-shrink-0 w-full h-full">
       <picture class="inline-block">
         <source srcset="<?= base_url('/images/home/banner-2x.webp')?>" media="(min-width: 768px)">
         <img src="<?= base_url('/images/home/banner.webp')?>" alt="Banner" class="w-full h-full object-cover">
       </picture>
     </article>
-    <article class="relative flex-shrink-0 w-full h-full">
+    <article class="automatic__carousel-slide relative flex-shrink-0 w-full h-full">
       <picture class="inline-block">
         <source srcset="<?= base_url('/images/home/banner-2x.webp')?>" media="(min-width: 768px)">
         <img src="<?= base_url('/images/home/banner.webp')?>" alt="Banner" class="w-full h-full object-cover">
@@ -20,7 +20,7 @@
     </article>
   </div>
 
-  <div class="carousel__navigation mt-4 text-center">
+  <div class="automatic-carousel__navigation mt-4 text-center">
     <label for="radio1">
       <input type="radio" id="radio1" name="radio-carousel-btn" class="cursor-pointer accent-mapla-purple-200" checked>
     </label>

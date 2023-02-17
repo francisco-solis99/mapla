@@ -1,12 +1,15 @@
+import { $ } from '../utils/index.js'
+
 // Automatic carousel
-const carouselWrapper = document.querySelector('.carousel')
-const numSlidesCarousel = document.querySelectorAll('.carousel article').length
-const btnsRadio = document.querySelectorAll('.carousel__navigation input')
+const carouselWrapper = $({ selector: '.automatic__carousel' })
+const carouselSlider = $({ selector: '.automatic__carousel-slider', element: carouselWrapper })
+const numSlidesCarousel = $({ selector: '.automatic__carousel-slide', element: carouselWrapper, multiple: true }).length
+const btnsRadio = $({ selector: '.automatic-carousel__navigation input', multiple: true, element: carouselWrapper })
 
 let currentSlideCarousel = 0
 function changeSlideCarousel () {
   const porcentage = currentSlideCarousel * 100
-  carouselWrapper.style.transform = `translateX(-${porcentage}%)`
+  carouselSlider.style.transform = `translateX(-${porcentage}%)`
 }
 
 setInterval(() => {
