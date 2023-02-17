@@ -1,4 +1,4 @@
-import { $, toggleCSSclasses, addCSSclasses, removeCSSclasses } from '../utils/index.js'
+import { $, toggleCSSclasses } from '../utils/index.js'
 
 // Just in case to use it
 const url = new URL(window.location.href)
@@ -10,7 +10,7 @@ const prevPageBtn = $({ selector: '.pagination__prev', element: pagination })
 const nextPageBtn = $({ selector: '.pagination__next', element: pagination })
 
 // it is important the queryParam in the url named as page
-let currentPage = Number(url.searchParams.get('page')) ?? 1
+let currentPage = Number(url.searchParams.get('page')) || 1
 const LIMIT = 5
 const timesPagination = Math.ceil(NUM_PAGES / LIMIT)
 
@@ -48,14 +48,14 @@ function showHidePages ({ min, max }) {
       if (page.classList.contains('hidden')) toggleCSSclasses(page, ['hidden'])
     }
 
-    const pageLinkClasses = ['bg-mapla-dark-200', 'text-white']
-    if (currentPage === index + 1) {
-      removeCSSclasses(page.firstElementChild, ['text-gray-500'])
-      addCSSclasses(page.firstElementChild, pageLinkClasses)
-    } else {
-      removeCSSclasses(page.firstElementChild, pageLinkClasses)
-      addCSSclasses(page.firstElementChild, ['text-gray-500'])
-    }
+    // const pageLinkClasses = ['bg-mapla-dark-200', 'text-white']
+    // if (currentPage === index + 1) {
+    //   removeCSSclasses(page.firstElementChild, ['text-gray-500'])
+    //   addCSSclasses(page.firstElementChild, pageLinkClasses)
+    // } else {
+    //   removeCSSclasses(page.firstElementChild, pageLinkClasses)
+    //   addCSSclasses(page.firstElementChild, ['text-gray-500'])
+    // }
   })
 }
 
