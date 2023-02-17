@@ -20,15 +20,15 @@
     </article>
   </div>
 
-  <div class="automatic-carousel__navigation mt-4 text-center">
-    <label for="radio1">
-      <input type="radio" id="radio1" name="radio-carousel-btn" class="cursor-pointer accent-mapla-purple-200" checked>
+  <div class="automatic-carousel__navigation mt-4 text-center" aria-label="Carousel Navigation">
+    <label for="radio-banner-1">
+      <input type="radio" id="radio-banner-1" name="radio-banner" class="cursor-pointer accent-mapla-purple-200" aria-label="AutomaticCarouselRadio1"  checked>
     </label>
-    <label for="radio2">
-      <input type="radio" id="radio2" name="radio-carousel-btn" class="cursor-pointer accent-mapla-purple-200">
+    <label for="radio-banner-2">
+      <input type="radio" id="radio-banner-2" name="radio-banner" aria-label="AutomaticCarouselRadio2" class="cursor-pointer accent-mapla-purple-200">
     </label>
-    <label for="radio3">
-      <input type="radio" id="radio3" name="radio-carousel-btn" class="cursor-pointer accent-mapla-purple-200">
+    <label for="radio-banner-3">
+      <input type="radio" id="radio-banner-3" name="radio-banner" aria-label="AutomaticCarouselRadio3" class="cursor-pointer accent-mapla-purple-200">
     </label>
   </div>
 </section>

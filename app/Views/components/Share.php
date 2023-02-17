@@ -1,5 +1,5 @@
 <div>
-  <h4 class="mb-6 text-center">¡Comparte esta página!</h4>
+  <h3 class="mb-6 text-center">¡Comparte esta página!</h3>
   <ul class="flex items-center justify-center gap-x-6" role="list">
     <!-- FB -->
     <li role="listitem">
@@ -19,7 +19,7 @@
     </li>
     <!-- Pinterest -->
     <li role="listitem">
-      <a href="https://pinterest.com/pin/create/button/?url=https://www.pinterest.com.mx/PinturasMapla/" target="_blank" rel="nofollow" aria-label="Comparte en Twitter">
+      <a href="https://pinterest.com/pin/create/button/?url=https://www.pinterest.com.mx/PinturasMapla/" target="_blank" rel="nofollow" aria-label="Comparte en Pinterest">
         <span class="inline-block">
           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="none"><path fill="#5600B9" d="M9.5.17C4.2586.17 0 4.4211 0 9.6535c0 3.8916 2.3259 7.2272 5.7 8.6988-.0328-.654 0-1.4716.1638-2.191.1966-.7849 1.212-5.167 1.212-5.167s-.2948-.6213-.2948-1.5043c0-1.4062.819-2.4527 1.8345-2.4527.8517 0 1.2776.654 1.2776 1.4389 0 .8503-.5569 2.1583-.8517 3.3683-.2293 1.0138.4913 1.8313 1.5069 1.8313 1.8017 0 3.0138-2.3218 3.0138-5.0361 0-2.093-1.4087-3.63-3.9638-3.63-2.8828 0-4.6845 2.1584-4.6845 4.5456 0 .8176.2293 1.4062.6224 1.8641.1638.1962.1966.2943.131.5232-.0327.1635-.1638.5886-.1965.7521-.0656.2289-.2621.3271-.4914.2289-1.3431-.5559-1.9328-1.9948-1.9328-3.63 0-2.6815 2.2604-5.919 6.781-5.919 3.6363 0 6.0277 2.6162 6.0277 5.4286 0 3.728-2.0638 6.5077-5.1104 6.5077-1.0155 0-1.9982-.5559-2.3258-1.1772 0 0-.557 2.191-.6552 2.6162-.1966.7194-.5897 1.4716-.95 2.0275.8517.2616 1.769.3924 2.6862.3924 5.2414 0 9.5-4.2513 9.5-9.4837C19 4.454 14.7414.17 9.5.17Z"/></svg>
         </span>
@@ -43,7 +43,7 @@
     </li>
     <!-- messenger -->
     <li role="listitem">
-      <a href="https://www.facebook.com/PinturasMapla/" target="_blank" rel="nofollow">
+      <a href="https://www.facebook.com/PinturasMapla/" target="_blank" rel="nofollow" aria-label="Comparte en Pinterest">
         <span class="inline-block">
           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" fill="none"><path fill="#5600B9" fill-rule="evenodd" d="M0 9.275C.1172 4.1416 4.3657.0705 9.5.1718 14.6343.0705 18.8828 4.1416 19 9.275c-.1172 5.1334-4.3657 9.2045-9.5 9.1032a9.8013 9.8013 0 0 1-3.5213-.6467l-2.2064 1.3782a.3959.3959 0 0 1-.6056-.3357V16.051A8.931 8.931 0 0 1 0 9.275Zm15.3981-3.0528c.1775-.102.3991-.0509.52.12.1215.17.1063.4084-.0357.5597l-4.875 5.1424c-.1501.1584-.3905.1681-.5517.0223L7.8249 9.6882l-4.225 2.4299c-.1577.0902-.3528.0606-.48-.0728-.1592-.1668-.16-.4382-.0018-.606l4.875-5.1425c.15-.1584.3905-.168.5517-.0223L11.173 8.652l4.225-2.4298Z" clip-rule="evenodd"/></svg>
         </span>

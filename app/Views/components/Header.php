@@ -1,6 +1,5 @@
 
 
-<!-- <div class="overlay fixed inset-0 z-10 bg-black opacity-80"></div> -->
 <header class="relative">
   <!-- Promo -->
   <div class="grid grid-cols-2 sm:grid-cols-3 items-center py-4 px-8 min-h-[40px] bg-mapla-purple-200 text-white">
@@ -18,12 +17,15 @@
   </div>
   <!-- Navbar -->
   <div class="flex justify-between items-center py-4 px-8 max-h-[100px]">
+    <!-- Logo -->
     <a href="<?= url_to('website.home.index') ?>">
       <picture class="inline-block max-w-[70px]">
-        <img src="<?= base_url('/logo.svg')?>" alt="Logotipo - Pinturas Mapla" class="w-full object-cover">
+        <img src="<?= base_url('/logo.svg')?>" alt="Logotipo - Pinturas Mapla" width="66" height="60" class="w-full object-cover">
       </picture>
     </a>
-    <button id="btn-menu-open" type="button" class="inline-flex lg:hidden p-2 rounded-full hover:bg-slate-200">
+
+    <!-- Hamburger Menu mobile view to open the navbar -->
+    <button id="btn-menu-open" type="button" class="inline-flex lg:hidden p-2 rounded-full hover:bg-slate-200" aria-label="Abrir el menu" aria-expanded="true">
       <span>
         <svg xmlns="http://www.w3.org/2000/svg" role="img" class="icon icon-tabler icon-tabler-menu-2 stroke-mapla-purple-200" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -34,8 +36,10 @@
       </span>
     </button>
 
+    <!-- Navbar -->
     <nav class="navbar" aria-label="Main navigation">
-      <button id="btn-menu-close" class="w-full mb-8 lg:hidden inline-flex justify-end">
+      <!-- Close Navbar button in the mobile view-->
+      <button id="btn-menu-close" class="w-full mb-8 lg:hidden inline-flex justify-end" aria-label="Cerarr el menu">
         <span class="p-2 bg-mapla-purple-100 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x stroke-white" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -44,10 +48,13 @@
           </svg>
         </span>
       </button>
+      <!-- Menu Navbar list -->
       <ul class="flex flex-col lg:flex-row gap-x-5 gap-y-4 mx-auto">
+        <!-- Inicio -->
         <li>
           <a href="<?= url_to('website.home.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Inicio</a>
         </li>
+        <!-- Productos -->
         <li class="group">
           <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link after:-bottom-[1px]" data-dropdown-button
           aria-describedby="Productos"
@@ -76,117 +83,152 @@
               <header>
                 <span class="font-bold text-lg">Superficie</span>
               </header>
-              <ul class="mt-2 px-4 lg:px-0 grid gap-y-2 gap-x-8 grid-rows-[repeat(9,minmax(0,1fr))] grid-cols-2 grid-flow-col">
+              <ul class="mt-2 px-4 lg:px-0 grid gap-y-1 gap-x-8 grid-rows-[repeat(9,minmax(0,1fr))] grid-cols-2 grid-flow-col">
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie1.webp') ?>" alt="Tablaroca - Pinturas Mapla">
-                    <span class="inline-block ml-1">Tablaroca</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block">
+                  <figure class="inline-flex space-x-1">
+                    <img src="<?= base_url('images/home/superficie1.webp') ?>" alt="Tablaroca - Pinturas Mapla" class="w-full object-contain">
+                    <figcaption class="inline-block">Tablaroca</figcaption>
+                  </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie2.webp') ?>" alt="Concreto - Pinturas Mapla">
-                    <span class="inline-block ml-1">Concreto</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block">
+                    <figure class="flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie2.webp') ?>" alt="Concreto - Pinturas Mapla" class="w-full object-contain">
+                      <figcaption class="inline-block">Concreto</figcaption>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie3.webp') ?>" alt="Madera - Pinturas Mapla">
-                    <span class="inline-block ml-1">Madera</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie3.webp') ?>" alt="Madera - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Madera</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie4.webp') ?>" alt="Durock - Pinturas Mapla">
-                    <span class="inline-block ml-1">Durock</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie4.webp') ?>" alt="Durock - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Durock</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie5.webp') ?>" alt="Pavimento - Pinturas Mapla">
-                    <span class="inline-block ml-1">Pavimento</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie5.webp') ?>" alt="Pavimento - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Pavimento</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie6.webp') ?>" alt="Plafones - Pinturas Mapla">
-                    <span class="inline-block ml-1">Plafones</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie6.webp') ?>" alt="Plafones - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Plafones</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie7.webp') ?>" alt="Tejas - Pinturas Mapla">
-                    <span class="inline-block ml-1">Tejas</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie7.webp') ?>" alt="Tejas - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Tejas</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie8.webp') ?>" alt="Adocreto - Pinturas Mapla">
-                    <span class="inline-block ml-1">Adocreto</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie8.webp') ?>" alt="Adocreto - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Adocreto</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie9.webp') ?>" alt="Guarniciones - Pinturas Mapla">
-                    <span class="inline-block ml-1">Guarniciones</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie9.webp') ?>" alt="Guarniciones - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Guarniciones</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie10.webp') ?>" alt="Asfalto - Pinturas Mapla">
-                    <span class="inline-block ml-1">Asfalto</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie10.webp') ?>" alt="Asfalto - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Asfalto</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie11.webp') ?>" alt="Canchas - Pinturas Mapla">
-                    <span class="inline-block ml-1">Canchas</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie11.webp') ?>" alt="Canchas - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Canchas</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie12.webp') ?>" alt="Acero - Pinturas Mapla">
-                    <span class="inline-block ml-1">Acero</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie12.webp') ?>" alt="Acero - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Acero</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie13.webp') ?>" alt="Losas - Pinturas Mapla">
-                    <span class="inline-block ml-1">Losas</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie13.webp') ?>" alt="Losas - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Losas</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie14.webp') ?>" alt="Asbesto - Pinturas Mapla">
-                    <span class="inline-block ml-1">Asbesto</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie14.webp') ?>" alt="Asbesto - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Asbesto</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie15.webp') ?>" alt="Hormigón - Pinturas Mapla">
-                    <span class="inline-block ml-1">Hormigón</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie15.webp') ?>" alt="Hormigón - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Hormigón</span>
+                    </figure>
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="shadow__link flex">
-                    <img src="<?= base_url('images/home/superficie16.webp') ?>" alt="Barro - Pinturas Mapla">
-                    <span class="inline-block ml-1">Barro</span>
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                    <figure class="inline-flex space-x-1">
+                      <img src="<?= base_url('images/home/superficie16.webp') ?>" alt="Barro - Pinturas Mapla" class="w-full object-contain">
+                      <span class="inline-block">Barro</span>
+                    </figure>
                   </a>
                 </li>
               </ul>
             </div>
 
-            <figure class="relative inline-block max-w-[220px] my-2 px-4 lg:my-0 lg:px-0">
+            <figure class="relative inline-block  my-2 px-4 lg:my-0 lg:px-0">
               <img src="<?= base_url('images/home/promociones.webp') ?>" alt="Pinturas Mapla - Promociones" class="w-full bg-cover">
-              <figcaption class="absolute left-1/2 bottom-16 -translate-x-1/2">
+              <figcaption class="absolute left-1/2 bottom-24 -translate-x-1/2">
                 <a href="<?= url_to('website.promotions.index') ?>" class="p-2 bg-white text-mapla-dark-200 font-bold rounded-full border border-mapla-dark-200">Ver ahora</a>
               </figcaption>
             </figure>
           </div>
         </li>
+
+        <!-- Donde comprar -->
         <li>
           <a href="<?= url_to('website.shops.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">¿Dónde comprar?</a>
         </li>
+        <!-- Herramientas -->
         <li class="group">
           <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link after:-bottom-[1px]" aria-describedby="Nosotros"
           aria-expanded="false"
@@ -204,6 +246,7 @@
             </div>
           </div>
         </li>
+        <!-- Nosotros -->
         <li class="group">
           <button class="navbar__btn-dropdown transition-all delay-100 text-xl font-bold lg:font-normal lg:text-base shadow__link after:-bottom-[1px]" aria-describedby="Nosotros"
           aria-expanded="false"
@@ -221,14 +264,17 @@
             </div>
           </div>
         </li>
+        <!-- Blog -->
         <li>
           <a href="<?= url_to('website.blog.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Blog</a>
         </li>
+        <!-- Contacto -->
         <li class="lg:hidden">
           <a href="<?= url_to('website.contact.index') ?>" class="transition-all delay-100 shadow__link text-xl font-bold lg:font-normal lg:text-base">Contacto</a>
         </li>
       </ul>
 
+      <!-- Whatsapp and contact button in desktop view -->
       <div class="hidden lg:block">
         <a target="_blank" aria-label="Chat de WhatsApp" href="https://wa.me/528297619317" rel="nofollow" class="inline-block">
             <span class="inline-block bg-green-500 rounded-full p-1.5 align-middle">
