@@ -22,11 +22,12 @@ Encuentra pinturas, barnices, selladores, recubrimientos, impermeabilizantes y m
                     <h2 class="font-medium text-2xl">Las mejores pinturas ecológicas a tu alcance</h2>
                     <p class="text-mapla-dark-100">Encuentra todo el material que necesites para renovar tu espacio en cualquiera de nuestras sucursales.</p>
                     <div class="locations mt-4">
+                        <!-- Selected Map component -->
                         <div>
                             <?= $this -> setVar('cities', $cities) -> setVar('shopByCity', $shopsByCity) -> include('components/SelectMap') ?>
                         </div>
 
-
+                        <!-- Shops cards components -->
                         <section class="mt-4">
                             <?php foreach ($shops as $itr => $shop): ?>
                                 <?php $className = $itr != 0 ? 'hidden' : ''; ?>
