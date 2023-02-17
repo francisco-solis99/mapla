@@ -21,16 +21,18 @@
   <main class="mb-8">
     <!-- Herop Carousel -->
       <section class="min-h-[560px] bg-slate-200 grid">
-        <div class="h-full horizontal__carousel relative overflow-hidden">
+        <div class="h-full horizontal__carousel relative overflow-hidden" aria-labelledby="carouselhero">
 
-          <button class="horizontal__carousel-prev absolute z-20 top-1/2 left-4">
+          <button class="horizontal__carousel-prev absolute z-20 top-1/2 left-3">
+            <span class="sr-only">Previous Slide</span>
             <span class="inline-block">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 35 35" fill="none" class="fill-white lg:fill-mapla-purple-200"><path fill="" fill-rule="evenodd" d="M35 17.5C35 7.8114 27.1796 0 17.5 0 7.8203 0 0 7.8114 0 17.5 0 27.1886 7.8114 35 17.5 35 27.1886 35 35 27.1886 35 17.5Zm-2.3399-.0001c0 8.3986-6.7615 15.1601-15.1601 15.1601S2.3399 25.8985 2.3399 17.4999 9.1015 2.3398 17.5 2.3398s15.1601 6.7615 15.1601 15.1601Z" clip-rule="evenodd"/><path fill="" d="m11.0855 16.7972 7.6957-7.6957c.4626-.4626 1.1655-.4626 1.637 0 .4626.4626.4626 1.1655 0 1.637l-6.7615 6.7616 6.7615 6.7615c.4626.4626.4626 1.1655 0 1.637-.2313.2313-.4626.3469-.8186.3469-.2312 0-.5872-.1156-.934-.2313l-7.5801-7.58c-.2313-.2313-.3471-.4626-.3471-.8186 0-.3469.1157-.5871.3471-.8184Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 35 35" fill="none" class="fill-white lg:fill-mapla-purple-200"><path fill="" fill-rule="evenodd" d="M35 17.5C35 7.8114 27.1796 0 17.5 0 7.8203 0 0 7.8114 0 17.5 0 27.1886 7.8114 35 17.5 35 27.1886 35 35 27.1886 35 17.5Zm-2.3399-.0001c0 8.3986-6.7615 15.1601-15.1601 15.1601S2.3399 25.8985 2.3399 17.4999 9.1015 2.3398 17.5 2.3398s15.1601 6.7615 15.1601 15.1601Z" clip-rule="evenodd"/><path fill="" d="m11.0855 16.7972 7.6957-7.6957c.4626-.4626 1.1655-.4626 1.637 0 .4626.4626.4626 1.1655 0 1.637l-6.7615 6.7616 6.7615 6.7615c.4626.4626.4626 1.1655 0 1.637-.2313.2313-.4626.3469-.8186.3469-.2312 0-.5872-.1156-.934-.2313l-7.5801-7.58c-.2313-.2313-.3471-.4626-.3471-.8186 0-.3469.1157-.5871.3471-.8184Z"/></svg>
             </span>
           </button>
-          <button class="horizontal__carousel-next absolute z-20 top-1/2 right-4">
+          <button class="horizontal__carousel-next absolute z-20 top-1/2 right-3">
+            <span class="sr-only">Next Slide</span>
             <span class="inline-block">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 35 35" fill="none" class="fill-white lg:fill-mapla-purple-200"><path fill="" fill-rule="evenodd" d="M0 17.5C0 7.8114 7.8204 0 17.5 0 27.1797 0 35 7.8114 35 17.5 35 27.1886 27.1886 35 17.5 35 7.8114 35 0 27.1886 0 17.5Zm2.3399-.0001C2.3399 25.8985 9.1014 32.66 17.5 32.66s15.1601-6.7615 15.1601-15.1601S25.8985 2.3398 17.5 2.3398 2.3399 9.1013 2.3399 17.4999Z" clip-rule="evenodd"/><path fill="" d="m23.9145 16.7972-7.6957-7.6957c-.4626-.4626-1.1655-.4626-1.637 0-.4626.4626-.4626 1.1655 0 1.637l6.7615 6.7616-6.7615 6.7615c-.4626.4626-.4626 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2312 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2313.3471-.4626.3471-.8186 0-.3469-.1157-.5871-.3471-.8184Z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 35 35" fill="none" class="fill-white lg:fill-mapla-purple-200"><path fill="" fill-rule="evenodd" d="M0 17.5C0 7.8114 7.8204 0 17.5 0 27.1797 0 35 7.8114 35 17.5 35 27.1886 27.1886 35 17.5 35 7.8114 35 0 27.1886 0 17.5Zm2.3399-.0001C2.3399 25.8985 9.1014 32.66 17.5 32.66s15.1601-6.7615 15.1601-15.1601S25.8985 2.3398 17.5 2.3398 2.3399 9.1013 2.3399 17.4999Z" clip-rule="evenodd"/><path fill="" d="m23.9145 16.7972-7.6957-7.6957c-.4626-.4626-1.1655-.4626-1.637 0-.4626.4626-.4626 1.1655 0 1.637l6.7615 6.7616-6.7615 6.7615c-.4626.4626-.4626 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2312 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2313.3471-.4626.3471-.8186 0-.3469-.1157-.5871-.3471-.8184Z"/></svg>
             </span>
           </button>
 
@@ -129,11 +131,11 @@
       <!-- Solutions vertical carousel -->
       <section class="relative min-h-[540px] pt-10 md:py-10 flex items-center bg-mapla-light-100 overflow-y-hidden">
         <div class="vertical__navigation absolute z-10 flex flex-col right-5 md:left-4">
-          <label for="radio1">
-            <input type="radio" id="radio1" name="radio-vertical-carousel-btn" class="cursor-pointer accent-mapla-purple-200" checked>
+          <label for="solution-radio-1">
+            <input type="radio" id="solution-radio-1" name="solution-radio" class="cursor-pointer accent-mapla-purple-200" checked aria-label="VerticalCarouselRadio1">
           </label>
-          <label for="radio2">
-            <input type="radio" id="radio2" name="radio-vertical-carousel-btn" class="cursor-pointer accent-mapla-purple-200">
+          <label for="solution-radio-2">
+            <input type="radio" id="solution-radio-2" name="solution-radio" class="cursor-pointer accent-mapla-purple-200" aria-label="VerticalCarouselRadio2">
           </label>
         </div>
         <div class="vertical__carousel container h-[850px] md:h-[540px] flex flex-col transition-transform delay-100">
@@ -175,7 +177,7 @@
         <div class="container grid md:grid-cols-2 gap-3 items-center">
           <picture class="max-w-xs md:max-w-sm inline-block justify-self-center">
             <source srcset="<?= base_url('/images/home/shop-2x.webp')?>" media="(min-width: 768px)">
-            <img src="<?= base_url('/images/home/shop.webp')?>" alt="Servicio Personalizado Mapla" class="w-full object-cover">
+            <img src="<?= base_url('/images/home/shop.webp')?>" width="328" height="453" alt="Servicio Personalizado Mapla" class="w-full object-cover">
           </picture>
           <div class="text-center">
             <span class="hidden md:inline-block">
