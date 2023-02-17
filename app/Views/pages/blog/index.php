@@ -8,6 +8,7 @@
 
 <?= $this->section('javascript') ?>
     <script src="<?= base_url('js/components/navbar.js') ?>" defer type="module"></script>
+    <script src="<?= base_url('js/components/pagination.js') ?>" defer type="module"></script>
 <?= $this->endSection() ?>
 
 
@@ -75,6 +76,12 @@
             <?= $this -> include('components/PostItem') ?>
             <?= $this -> include('components/PostItem') ?>
           </section>
+        </div>
+      </section>
+
+      <section class="my-16">
+        <div class="container flex justify-end">
+          <?= $this -> include('components/Pagination') ?>
         </div>
       </section>
     </main>
