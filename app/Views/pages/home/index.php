@@ -9,6 +9,7 @@
 
 <?= $this->section('javascript') ?>
     <script src="<?= base_url('js/components/navbar.js') ?>" defer type="module"></script>
+    <script src="<?= base_url('js/components/horizontalCarousel.js') ?>" defer type="module"></script>
     <script src="<?= base_url('js/modules/splide.min.js') ?>"></script>
     <script src="<?= base_url('js/components/carousels.js') ?>" defer type="module"></script>
     <script src="<?= base_url('js/components/automaticCarousel.js') ?>" defer type="module"></script>
@@ -20,16 +21,42 @@
   <main class="mb-8">
     <!-- Herop Carousel -->
       <section class="min-h-[560px] bg-slate-200 grid">
-        <div class="slides">
-          <article class="relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat h-full grid place-items-center">
-            <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
-              <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
-                <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
-                <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
-                <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
+        <div class="h-full horizontal__carousel relative overflow-hidden">
+
+          <button class="horizontal__carousel-prev absolute z-20 top-1/2 left-4">
+            <span class="inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 35 35" fill="none" class="fill-white lg:fill-mapla-purple-200"><path fill="" fill-rule="evenodd" d="M35 17.5C35 7.8114 27.1796 0 17.5 0 7.8203 0 0 7.8114 0 17.5 0 27.1886 7.8114 35 17.5 35 27.1886 35 35 27.1886 35 17.5Zm-2.3399-.0001c0 8.3986-6.7615 15.1601-15.1601 15.1601S2.3399 25.8985 2.3399 17.4999 9.1015 2.3398 17.5 2.3398s15.1601 6.7615 15.1601 15.1601Z" clip-rule="evenodd"/><path fill="" d="m11.0855 16.7972 7.6957-7.6957c.4626-.4626 1.1655-.4626 1.637 0 .4626.4626.4626 1.1655 0 1.637l-6.7615 6.7616 6.7615 6.7615c.4626.4626.4626 1.1655 0 1.637-.2313.2313-.4626.3469-.8186.3469-.2312 0-.5872-.1156-.934-.2313l-7.5801-7.58c-.2313-.2313-.3471-.4626-.3471-.8186 0-.3469.1157-.5871.3471-.8184Z"/></svg>
+            </span>
+          </button>
+          <button class="horizontal__carousel-next absolute z-20 top-1/2 right-4">
+            <span class="inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 35 35" fill="none" class="fill-white lg:fill-mapla-purple-200"><path fill="" fill-rule="evenodd" d="M0 17.5C0 7.8114 7.8204 0 17.5 0 27.1797 0 35 7.8114 35 17.5 35 27.1886 27.1886 35 17.5 35 7.8114 35 0 27.1886 0 17.5Zm2.3399-.0001C2.3399 25.8985 9.1014 32.66 17.5 32.66s15.1601-6.7615 15.1601-15.1601S25.8985 2.3398 17.5 2.3398 2.3399 9.1013 2.3399 17.4999Z" clip-rule="evenodd"/><path fill="" d="m23.9145 16.7972-7.6957-7.6957c-.4626-.4626-1.1655-.4626-1.637 0-.4626.4626-.4626 1.1655 0 1.637l6.7615 6.7616-6.7615 6.7615c-.4626.4626-.4626 1.1655 0 1.637.2313.2313.4626.3469.8186.3469.2312 0 .5872-.1156.934-.2313l7.5801-7.58c.2313-.2313.3471-.4626.3471-.8186 0-.3469-.1157-.5871-.3471-.8184Z"/></svg>
+            </span>
+          </button>
+
+          <div class="h-full horizontal__carousel-slider flex transition-transform delay-100">
+            <article class="horizontal__carousel-slide flex-shrink-0 w-full h-full relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat grid place-items-center">
+              <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
+                <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
+                  <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
+                  <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
+                  <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+
+            <article class="horizontal__carousel-slide flex-shrink-0 w-full h-full relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat grid place-items-center">
+              <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
+                <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
+                  <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Pinturas y soluciones de recubrimiento en Yucatán y Quintana Roo</h1>
+                  <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
+                  <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">Contactanos</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
       </section>
 
       <!-- Products carousel -->

@@ -1,3 +1,4 @@
+// Carousel of products 3 per slide
 const productsCarousel = new Splide('.products__carousel', {
   pagination: false,
   type: 'loop',
