@@ -85,7 +85,7 @@
               </header>
               <ul class="mt-2 px-4 lg:px-0 grid gap-y-1 gap-x-8 grid-rows-[repeat(9,minmax(0,1fr))] grid-cols-2 grid-flow-col">
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                   <figure class="inline-flex space-x-1">
                     <img src="<?= base_url('images/home/superficie1.webp') ?>" alt="Tablaroca - Pinturas Mapla" class="w-full object-contain">
                     <figcaption class="inline-block">Tablaroca</figcaption>
@@ -93,7 +93,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="flex space-x-1">
                       <img src="<?= base_url('images/home/superficie2.webp') ?>" alt="Concreto - Pinturas Mapla" class="w-full object-contain">
                       <figcaption class="inline-block">Concreto</figcaption>
@@ -101,7 +101,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie3.webp') ?>" alt="Madera - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Madera</span>
@@ -109,7 +109,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie4.webp') ?>" alt="Durock - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Durock</span>
@@ -117,7 +117,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie5.webp') ?>" alt="Pavimento - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Pavimento</span>
@@ -125,7 +125,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie6.webp') ?>" alt="Plafones - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Plafones</span>
@@ -133,7 +133,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie7.webp') ?>" alt="Tejas - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Tejas</span>
@@ -141,7 +141,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie8.webp') ?>" alt="Adocreto - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Adocreto</span>
@@ -149,7 +149,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie9.webp') ?>" alt="Guarniciones - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Guarniciones</span>
@@ -157,7 +157,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie10.webp') ?>" alt="Asfalto - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Asfalto</span>
@@ -165,7 +165,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie11.webp') ?>" alt="Canchas - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Canchas</span>
@@ -173,7 +173,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie12.webp') ?>" alt="Acero - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Acero</span>
@@ -181,7 +181,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie13.webp') ?>" alt="Losas - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Losas</span>
@@ -189,7 +189,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie14.webp') ?>" alt="Asbesto - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Asbesto</span>
@@ -197,7 +197,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie15.webp') ?>" alt="Hormigón - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Hormigón</span>
@@ -205,7 +205,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block text-mapla-dark-200/80 hover:text-mapla-dark-200">
+                  <a href="<?= url_to('website.surface.index') ?>" class="inline-block lg:text-mapla-dark-200/80 lg:hover:text-mapla-dark-200">
                     <figure class="inline-flex space-x-1">
                       <img src="<?= base_url('images/home/superficie16.webp') ?>" alt="Barro - Pinturas Mapla" class="w-full object-contain">
                       <span class="inline-block">Barro</span>

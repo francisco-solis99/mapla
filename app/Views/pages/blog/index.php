@@ -30,7 +30,7 @@
             <div class="relative flex items-center justify-between text-center">
               <label for="search" class="visually__hidden">Buscar un tema</label>
               <input type="text" id="search" name="search" placeholder="Buscar un tema" class="w-full pl-4 pr-8 py-2 bg-white border border-slate-300 rounded-3xl hover:shadow-sm focus:shadow-sm transition-all delay-50 ease-in-out">
-              <button class="absolute right-3 bg-white">
+              <button class="absolute right-3 bg-white" aria-label="Buscar">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="#21252A" fill-rule="evenodd" d="m11.2545 10.312 4.55 4.55a.6659.6659 0 0 1 0 .9427.6647.6647 0 0 1-.4713.1953.6649.6649 0 0 1-.4714-.1953l-4.5499-4.55c-1.0887.8813-2.472 1.412-3.9786 1.412C2.8413 12.6667 0 9.8253 0 6.3333S2.8413 0 6.3332 0c3.492 0 6.3333 2.8413 6.3333 6.3333 0 1.5067-.5306 2.89-1.412 3.9787ZM1.3333 6.3333c0 2.7574 2.2427 5 5 5s4.9999-2.2426 4.9999-5c0-2.7573-2.2426-5-5-5-2.7572 0-4.9999 2.2427-4.9999 5Z" clip-rule="evenodd"/></svg>
               </button>
             </div>
