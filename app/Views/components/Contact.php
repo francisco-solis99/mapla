@@ -13,10 +13,10 @@
   <input type="name" id="message" placeholder="¿En qué podemos ayudarte?" class="w-full p-3 bg-white rounded-3xl" required  aria-required="true">
 
   <!-- reCAPTCHA v2, add the key in the backend -->
-   <div
+   <!-- <div
     class="g-recaptcha mx-auto"
     data-sitekey="your_site_key">
-  </div>
+  </div> -->
 
   <button type="submit" class="mt-5 min-w-[100px] p-2 text-white bg-mapla-orange-100 rounded-3xl justify-self-center">Enviar</button>
 </form>
