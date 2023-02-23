@@ -53,7 +53,7 @@
   }
 
   .navbar__dropdown {
-    @apply lg:group-hover:opacity-100 lg:group-hover:max-h-max lg:group-hover:scale-100 lg:absolute lg:z-40 lg:bg-white lg:text-mapla-dark-200 lg:shadow-md lg:transition-all lg:ease-out
+    @apply lg:group-hover:opacity-100 lg:group-hover:max-h-max lg:group-hover:scale-100 lg:fixed lg:z-40 lg:bg-white lg:text-mapla-dark-200 lg:shadow-md lg:transition-all lg:ease-out
   }
 
 }
