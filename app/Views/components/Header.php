@@ -16,7 +16,7 @@
     </div>
   </div>
   <!-- Navbar -->
-  <div class="flex justify-between items-center py-4 px-8 max-h-[100px]">
+  <div class="flex justify-between items-center py-4 px-8">
     <!-- Logo -->
     <a href="<?= url_to('website.home.index') ?>">
       <picture class="inline-block max-w-[70px]">
