@@ -46,7 +46,7 @@
         <article class="horizontal__carousel-slide flex-shrink-0 w-full h-full relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat grid place-items-center">
           <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
             <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
-              <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Soluciones en Pintura, Barnices y Recubrimientos para el hogar,la industria y el comercio</h1>
+              <h1 class="text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Soluciones en Pintura, Barnices y Recubrimientos para el hogar,la industria y el comercio.</h1>
               <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
               <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">¡Contáctanos!</a>
             </div>
@@ -56,7 +56,7 @@
         <article class="horizontal__carousel-slide flex-shrink-0 w-full h-full relative bg-hero-slide-1 bg-cover bg-center bg-no-repeat grid place-items-center">
           <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
             <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
-              <h1 class="lg:w-[95%] text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Soluciones en Pintura, Barnices y Recubrimientos para el hogar,la industria y el comercio</h1>
+              <h1 class="text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Soluciones en Pintura, Barnices y Recubrimientos para el hogar,la industria y el comercio.</h1>
               <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
               <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">¡Contáctanos!</a>
             </div>
