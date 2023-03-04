@@ -47,7 +47,7 @@
           <div class="absolute inset-0 backdrop-brightness-50 grid items-center lg:block lg:container lg:static lg:backdrop-filter-none">
             <div class="mx-auto max-w-2xl px-8 text-center sm:text-left lg:mx-0">
               <h1 class="text-purple-200 text-4xl font-black lg:text-mapla-purple-200 sm:text-5xl">Soluciones en Pintura, Barnices y Recubrimientos para el hogar, la industria y el comercio.</h1>
-              <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectonica, selladores, recubrimientos, impermeabilizantes, y barnices en el Sureste Mexicano.</h2>
+              <h2 class="text-white mt-6 mb-7 text-xl lg:text-mapla-dark-200 font-medium lg:w-4/6">Tienda de pintura arquitectónica, selladores, recubrimientos, impermeabilizantes y barnices en el Sureste Mexicano.</h2>
               <a href="<?= url_to('website.contact.index') ?>" class="p-3 bg-mapla-orange-100 text-white font-bold rounded-full">¡Contáctanos!</a>
             </div>
           </div>
@@ -99,7 +99,7 @@
       <div class="md:w-3/4">
         <h3 class="text-mapla-dark-200 font-medium text-2xl">Productos responsables - Low VOC</h3>
         <h2 class="secundary__title mb-3 mt-4 text-4xl font-ubuntu">Pinturas amigables con el medio ambiente 🌱</h2>
-        <p class="mb-5 text-mapla-dark-100">Nuestras pinturas son amigables con el medio ambiente gracias a que en nuestra producción cuidamos minimizar al máximo los Compuestos Volátiles de Carbono.</p>
+        <p class="mb-5 text-mapla-dark-100">Nuestras pinturas son amigables con el medio ambiente, gracias a que en nuestra producción cuidamos minimizar al máximo los Compuestos Volátiles de Carbono.</p>
         <a href="<?= url_to('website.technology.index') ?>" class="cta__white">Tecnología Mapla</a>
       </div>
       <picture class="max-w-lg mx-auto w-3/4 md:w-full md:mx-0 md:max-w-xl md:justify-self-end">
@@ -117,7 +117,7 @@
           <h3 class="py-2 px-3 inline-block justify-self-center text-[28px] bg-mapla-green-100 text-mapla-green-200 font-bold rounded-lg ">#HazloconMapla</h3>
           <h2 class="mt-10 mb-8 font-bold font-ubuntu text-6xl">Soluciones</h2>
           <p class="lg:w-4/6 lg:mx-auto">
-            Con nosotros, encontrarás la mejor asesoría y te brindaremos soluciones personalizadas para tu decoración, orientándote en elección de pintura, igualación de color y selección de acabados. Dale la mejor calidad con pinturas 100% mexicanas, luce nuestros colores.
+            Con nosotros encontrarás la mejor asesoría y te brindaremos soluciones personalizadas para tu decoración, orientándote en elección de pintura, igualación de color y selección de acabados. Luce nuestros colores y dale la mejor calidad con pinturas 100% mexicanas.
           </p>
         </div>
         <!-- TODO: Hidden for now -->
@@ -152,7 +152,7 @@
             <strong class="text-mapla-purple-100 inline-block md:block">Soluciones</strong>
             <span>a la medida de tus proyectos</span>
           </h2>
-          <p class="mb-8">Nuestros asesores brindan soluciones a la medida de tus proyectos, acompañándote en cada etapa de este. Desde atención personalizada, aplicación de muestras, creación de productos especiales hasta planes de descuento por volumen de compra.</p>
+          <p class="mb-8">Nuestros asesores brindan soluciones a la medida de tus proyectos acompañándote en cada etapa de éste. Desde atención personalizada, aplicación de muestras, creación de productos especiales hasta planes de descuento por volumen de compra.</p>
           <a href="<?= url_to('website.about.index') ?>" class="cta__white">Acerca de Nosotros</a>
         </div>
         <picture class="inline-block max-w-md min-w-[280px] w-3/4 justify-self-center sm:w-full md:justify-self-end">

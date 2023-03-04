@@ -32,7 +32,7 @@
         <h2 class="font-ubuntu text-mapla-purple-200 font-bold text-4xl lg:text-[45px] lg:leading-[54px] mb-2">La mejor opción en pinturas ecológicas</h2>
         <button class="mt-4 p-3 bg-mapla-orange-100 text-white rounded-3xl text-sm transition-opacity delay-100 hover:opacity-90">Compromiso social</button>
       </div>
-      <p class="md:w-2/5 text-mapla-dark-100">Somos una empresa 100% mexicana comprometida con la constante actualización de materias primas, a la vanguardia de la tecnología, con productos totalmente confiables y siempre conforme al cuidado del medio ambiente.</p>
+      <p class="md:w-2/5 text-mapla-dark-100">Somos una empresa 100% mexicana comprometida con la constante actualización de materias primas, y a la vanguardia de la tecnología, con productos totalmente confiables y siempre conforme al cuidado del medio ambiente.</p>
     </div>
   </section>
 
@@ -60,14 +60,14 @@
           <img src="<?= base_url('/images/about/flower.webp') ?>" alt="" class="w-full object-cover">
         </span>
         <h3 class="text-mapla-purple-200 text-2xl font-medium mt-3 mb-4">Pinturas sin olor</h3>
-        <p class="text-sm">Nuestras pinturas ecológicas sin olor, a diferencia de la pintura convencional, no contiene partículas invisibles que pueden ser nocivas para tu salud, ya que entre sus componentes se encuentran metales pesados o sustancias volátiles derivadas del petróleo. Además, utilizando este tipo de pintura evitaras tener que esperar varios días para que disminuya el olor a pintura para retomar tus labores cotidianas.</p>
+        <p class="text-sm">Nuestras pinturas ecológicas sin olor, a diferencia de la pintura convencional, no contiene partículas invisibles que pueden ser nocivas para tu salud, ya que entre sus componentes se encuentran metales pesados o sustancias volátiles derivadas del petróleo. Además, utilizando este tipo de pintura evitarás tener que esperar varios días para que disminuya el olor a pintura para retomar tus labores cotidianas.</p>
       </article>
       <article class="max-w-sm p-8 bg-mapla-light-200 text-mapla-dark-100 rounded-[20px]">
         <span class="inline-block bg-white rounded-full p-2 max-w-[50px]">
           <img src="<?= base_url('/images/about/winter.webp') ?>" alt="" class="w-full object-cover">
         </span>
         <h3 class="text-mapla-purple-200 text-2xl font-medium mt-3 mb-4">Pinturas sin olor</h3>
-        <p class="text-sm">Nuestras pinturas ecológicas sin olor, a diferencia de la pintura convencional, no contiene partículas invisibles que pueden ser nocivas para tu salud, ya que entre sus componentes se encuentran metales pesados o sustancias volátiles derivadas del petróleo. Además, utilizando este tipo de pintura evitaras tener que esperar varios días para que disminuya el olor a pintura para retomar tus labores cotidianas.</p>
+        <p class="text-sm">Nuestras pinturas ecológicas sin olor, a diferencia de la pintura convencional, no contiene partículas invisibles que pueden ser nocivas para tu salud, ya que entre sus componentes se encuentran metales pesados o sustancias volátiles derivadas del petróleo. Además, utilizando este tipo de pintura evitarás tener que esperar varios días para que disminuya el olor a pintura para retomar tus labores cotidianas.</p>
       </article>
       <article class="text-mapla-dark-100"></article>
     </div>
@@ -81,7 +81,7 @@
           <h3 class="py-2 px-3 inline-block justify-self-center text-[28px] bg-mapla-green-100 text-mapla-green-200 font-bold rounded-lg ">#HazloconMapla</h3>
           <h2 class="mt-10 mb-8 font-bold font-ubuntu text-6xl">Pinturas 100% Mexicanas</h2>
           <p class="lg:w-4/6 lg:mx-auto mb-4">
-            La mejor calidad con pinturas 100% mexicanas, luce nuestros colores.
+            La mejor calidad con pinturas 100% mexicanas, ¡Luce nuestros colores!.
           </p>
           <a href="<?= url_to('website.promotions.index') ?>" class=" bg-mapla-orange-100 p-3 text-white inline-block rounded-full">Promociones</a>
         </div>
