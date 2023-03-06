@@ -17,7 +17,7 @@
     <div class="absolute inset-0 grid place-content-center text-center backdrop-brightness-50 text-white">
       <div class="container">
         <h1 class="font-bold text-5xl sm:text-6xl">Distribuidor de pinturas ecológicas</h1>
-        <h2 class="mt-6 text-xl sm:text-2xl font-medium">Renueva cualquier espacio con nuestros selladores, impermeabilizantes, barnices, recubrimientos, y pinturas.</h2>
+        <h2 class="mt-6 text-xl sm:text-2xl font-medium">Renueva cualquier espacio con nuestros selladores, impermeabilizantes, barnices, recubrimientos y pinturas.</h2>
       </div>
     </div>
   </section>
@@ -29,7 +29,7 @@
         <span class="block">Soluciones y Pinturas</span>
       </h3>
       <p class="text-center sm:text-left mb-6 text-mapla-dark-100">
-        Somos una empresa 100% mexicana comprometida con la constante actualización de materias primas, para poder brindarte la mejor vanguardia en tecnología mediante productos totalmente confiables y siempre conforme al cuidado del medio ambiente.
+        Somos una empresa 100% mexicana comprometida con la constante actualización de materias primas, para poder brindarte la mejor vanguardia en tecnología mediante productos totalmente confiables y siempre cuidando del medio ambiente.
       </p>
       <p class="text-center sm:text-left text-mapla-dark-100">
         A lo largo de nuestros más de 26 años de experiencia, nos hemos convertido en la marca líder en fabricación y distribución de pinturas en el sureste del país, contando con una reconocida presencia en Mérida, Cancún, Playa del Carmen, Cozumel, Tulum, Bacalar y Chetumal.

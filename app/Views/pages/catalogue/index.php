@@ -33,19 +33,19 @@
               <picture>
                 <img src="<?= base_url('images/catalogue/download.webp') ?>" alt="Catalogo Mapla">
               </picture>
-              <button class="modal__btn-open block mx-auto mt-5 py-2 px-3 bg-mapla-purple-100 text-white text-[13px] font-bold rounded-3xl">Descargar Catalogo</button>
+              <button class="modal__btn-open block mx-auto mt-5 py-2 px-3 bg-mapla-purple-100 text-white text-[13px] font-bold rounded-3xl">Descargar Catálogo</button>
             </article>
             <article class="max-w-sm">
               <picture>
                 <img src="<?= base_url('images/catalogue/download.webp') ?>" alt="Catalogo Mapla">
               </picture>
-              <button class="modal__btn-open block mx-auto mt-5 py-2 px-3 bg-mapla-purple-100 text-white text-[13px] font-bold rounded-3xl">Descargar Catalogo</button>
+              <button class="modal__btn-open block mx-auto mt-5 py-2 px-3 bg-mapla-purple-100 text-white text-[13px] font-bold rounded-3xl">Descargar Catálogo</button>
             </article>
             <article class="max-w-sm">
               <picture>
                 <img src="<?= base_url('images/catalogue/download.webp') ?>" alt="Catalogo Mapla">
               </picture>
-              <button class="modal__btn-open block mx-auto mt-5 py-2 px-3 bg-mapla-purple-100 text-white text-[13px] font-bold rounded-3xl">Descargar Catalogo</button>
+              <button class="modal__btn-open block mx-auto mt-5 py-2 px-3 bg-mapla-purple-100 text-white text-[13px] font-bold rounded-3xl">Descargar Catálogo</button>
             </article>
           </div>
           <?= $this->include('components/Modal') ?>
